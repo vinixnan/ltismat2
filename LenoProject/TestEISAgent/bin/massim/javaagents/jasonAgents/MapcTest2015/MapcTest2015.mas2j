@@ -1,0 +1,9 @@
+/* Jason Project */
+
+MAS mapcTest2015 {
+
+    infrastructure: Centralised
+
+    agents:
+}
+
