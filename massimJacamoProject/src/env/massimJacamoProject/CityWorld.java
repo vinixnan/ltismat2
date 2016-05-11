@@ -2,9 +2,13 @@
 
 package massimJacamoProject;
 
+import java.util.LinkedList;
+
 import cartago.Artifact;
 import cartago.OPERATION;
 import eis.iilang.Action;
+import eis.iilang.Parameter;
+import eis.iilang.Percept;
 import jason.stdlib.list;
 /**
  * Artifact that implements the inferface between an agent in the CityWolrd and our implementation in JACAMO.
@@ -24,7 +28,22 @@ public class CityWorld extends Artifact {
 	void init(String agentID) {
 		this.agentID = agentID;
 
-		System.out.println("OK City world\n");
+		/*
+		 * Perceptions		 
+		 */
+		defineObsProperty("charge");
+		defineObsProperty("load");
+		defineObsProperty("lastAction");
+		defineObsProperty("lastActionParam");
+		defineObsProperty("lastActionResult");
+		defineObsProperty("lat");
+		defineObsProperty("lon");
+		defineObsProperty("inFacility");
+		defineObsProperty("fPosition");
+		defineObsProperty("routeLength");
+
+
+		//		System.out.println("OK City world\n");
 
 		//Only creates this interface one time
 		if(cityAgentInterface==null){
@@ -39,6 +58,68 @@ public class CityWorld extends Artifact {
 
 	}
 
+	/**
+	 * Handles a new Percept, this method is called in the agent class
+	 * @param percept percept to be processed
+	 */
+	public void handlePercept(Percept percept) {
+		//Agent individual attributes
+		if (percept.getName().equals("self")){
+			LinkedList<Parameter> param = percept.getParameters();
+			processAgentPercepts(param);
+		}
+
+	}
+
+	/**
+	 * Updates all perceptions related to the current agent
+	 * @param param parameters
+	 */
+	private void processAgentPercepts(LinkedList<Parameter> param) {
+		//Process all parameters
+		for(int i=0;i<param.size();i++){
+			Parameter p = param.get(i);
+			System.out.println(p+"   "+Double.parseDouble(p.toString()));
+
+			if(p.equals("charge")){
+				updateObsProperty("charge", 
+						Double.parseDouble(p.toString()));
+				continue;
+			}
+
+			if(p.equals("load")){
+				updateObsProperty("load", 
+						Double.parseDouble(p.toString()));
+				continue;
+			}
+
+			if(p.equals("lastAction")){
+				updateObsProperty("lastAction", 
+						p.toString());
+				continue;
+			}
+
+			if(p.equals("lastActionParam")){
+				updateObsProperty("lastActionParam", 
+						p.toString());
+				continue;
+			}
+			
+			if(p.equals("lastActionResult")){
+				updateObsProperty("lastActionParam", 
+						p.toString());
+				continue;
+			}
+		/*case "lastActionParam": break;
+		case "lastActionResult": break;
+		case "lat": break;
+		case "lon": break;
+		case "inFacility": break;
+		case "fPosition": break;
+		case "routeLength": break;*/
+
+		}
+	}
 
 	/*
 	 * 
@@ -189,7 +270,7 @@ public class CityWorld extends Artifact {
 			scheduledAction = a;
 		}
 	}
-	
+
 	/**
 	 * bid_for_job action
 	 * @param job job id
@@ -202,7 +283,7 @@ public class CityWorld extends Artifact {
 			scheduledAction = a;
 		}
 	}
-	
+
 	/**
 	 * post_job action for auctioned jobs
 	 * @param max_price auction max_price
@@ -246,7 +327,7 @@ public class CityWorld extends Artifact {
 			scheduledAction = a;
 		}
 	}
-	
+
 	/**
 	 * continue action
 	 */
@@ -268,7 +349,7 @@ public class CityWorld extends Artifact {
 			scheduledAction = a;
 		}
 	}
-	
+
 	/**
 	 * abort action
 	 */
@@ -313,6 +394,9 @@ public class CityWorld extends Artifact {
 		this.scheduledAction = null;
 
 	}
+
+
+
 
 
 }

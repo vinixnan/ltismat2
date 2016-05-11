@@ -55,6 +55,8 @@ public class CityAgent extends Agent {
 		//The "notifications" options must be ENABLED in the agents xml
 		if(percep.getName().equals("requestAction")){
 			processAction = true;
+		}else{
+			this.artifact.handlePercept(percep);
 		}
 		
 	}
