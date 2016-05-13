@@ -10,7 +10,9 @@
 
 mas massimJacamoProject {
 
-    //agent leader
+	organisation o1 : company.xml {}
+	
+	//agent leader
     agent vehicle1 : vehicle.asl { 
     	focus: city.a1view
     }
@@ -58,7 +60,7 @@ mas massimJacamoProject {
     }
     agent vehicle16 : vehicle.asl { 
     	focus: city.a16view
-    }
+    }pi
     
 /* 
    agent definition
