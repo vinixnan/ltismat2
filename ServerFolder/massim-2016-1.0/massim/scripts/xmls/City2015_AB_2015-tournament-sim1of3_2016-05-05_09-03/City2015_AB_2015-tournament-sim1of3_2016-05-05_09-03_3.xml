@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><simulationstate status="running">
+<state cell-size="0.001" max-lat="51.5223" max-lon="-0.0354" min-lat="51.4647" min-lon="-0.1978" number-of-steps="null" proximity="2.0E-4" simulation="City2015_AB_2015-tournament-sim1of3" step="3">
+<facilities>
+<facility concurrent="2" fPrice="2" lat="51.471896627413905" lon="-0.17281568216085344" name="charging0" q="0" rate="139" type="CH"/>
+<facility concurrent="1" fPrice="7" lat="51.46518925226457" lon="-0.11912205650906382" name="charging1" q="0" rate="137" type="CH"/>
+<facility concurrent="2" fPrice="7" lat="51.49154213278336" lon="-0.11303851801091595" name="charging2" q="0" rate="50" type="CH"/>
+<facility concurrent="5" fPrice="2" lat="51.49135835076925" lon="-0.0623226179701675" name="charging3" q="0" rate="143" type="CH"/>
+<facility concurrent="1" fPrice="7" lat="51.500073150594936" lon="-0.026031990705258894" name="charging4" q="0" rate="53" type="CH"/>
+<facility concurrent="4" fPrice="3" lat="51.50902181511421" lon="-0.15922934172815104" name="charging5" q="0" rate="96" type="CH"/>
+<facility concurrent="1" fPrice="5" lat="51.514920326819414" lon="-0.14928433537689453" name="charging6" q="0" rate="51" type="CH"/>
+<facility concurrent="2" fPrice="4" lat="51.50779600452496" lon="-0.11610286687568598" name="charging7" q="0" rate="102" type="CH"/>
+<facility concurrent="3" fPrice="5" lat="51.52747519645388" lon="-0.05778283362193867" name="charging8" q="0" rate="97" type="CH"/>
+<facility concurrent="3" fPrice="5" lat="51.51987963795528" lon="-0.01648034391370688" name="charging9" q="0" rate="141" type="CH"/>
+<facility lat="51.47859332142593" lon="-0.05421427687718571" name="dump0" price="7" type="DU"/>
+<facility lat="51.49793181191232" lon="-0.007026642718016566" name="dump1" price="4" type="DU"/>
+<facility lat="51.511530451133844" lon="-0.18912456819255669" name="dump2" price="3" type="DU"/>
+<facility lat="51.53275927817174" lon="-0.13668857955691865" name="dump3" price="5" type="DU"/>
+<facility lat="51.5403670194408" lon="-0.04946425746653887" name="dump4" price="4" type="DU"/>
+<facility lat="51.54216589986969" lon="-0.008753382686693435" name="dump5" price="6" type="DU"/>
+<facility lat="51.491135989992685" lon="-0.10821312823495664" name="workshop0" price="230" type="WS"/>
+<facility capacity="0/10389" lat="51.478781299132876" lon="-0.13533207518421184" name="storage0" price="5" stored="Team A:&#10;Team B:&#10;" type="ST"/>
+<facility capacity="0/11311" lat="51.488402153304854" lon="-0.06445178792423421" name="storage1" price="5" stored="Team A:&#10;Team B:&#10;" type="ST"/>
+<facility capacity="0/8101" lat="51.48014802068803" lon="-0.02865903143567662" name="storage2" price="4" stored="Team A:&#10;Team B:&#10;" type="ST"/>
+<facility capacity="0/12591" lat="51.518731313276035" lon="-0.15076589545467048" name="storage3" price="3" stored="Team A:&#10;Team B:&#10;" type="ST"/>
+<facility capacity="0/11376" lat="51.52578189486476" lon="-0.11387833735852143" name="storage4" price="2" stored="Team A:&#10;Team A:&#10;Team B:&#10;" type="ST"/>
+<facility capacity="0/10377" lat="51.51056403298362" lon="-0.06761269200662513" name="storage5" price="3" stored="Team A:&#10;Team B:&#10;" type="ST"/>
+<facility lat="51.47782567466406" lon="-0.17347261697365232" name="shop0" stock="6x item3 @ 1996&#10;9x item6 @ 274&#10;17x item8 @ 170&#10;16x item1 @ 197&#10;20x item0 @ 163&#10;16x item10 @ 89&#10;" type="SH"/>
+<facility lat="51.478944425496515" lon="-0.14871636460005375" name="shop1" stock="12x item6 @ 233&#10;21x item7 @ 26&#10;14x item1 @ 213&#10;15x item0 @ 161&#10;8x item2 @ 1971&#10;19x item5 @ 8504&#10;14x item4 @ 898&#10;" type="SH"/>
+<facility lat="51.49159574016964" lon="-0.09931424608838388" name="shop2" stock="10x item6 @ 245&#10;15x item7 @ 22&#10;21x item9 @ 425&#10;18x item0 @ 161&#10;7x item4 @ 762&#10;" type="SH"/>
+<facility lat="51.50458853329543" lon="-0.04150234255572429" name="shop3" stock="21x item3 @ 1748&#10;18x item0 @ 193&#10;7x item2 @ 2644&#10;" type="SH"/>
+<facility lat="51.49263488717443" lon="-0.03266589110062866" name="shop4" stock="14x item3 @ 2030&#10;20x item6 @ 239&#10;15x item8 @ 184&#10;14x item7 @ 23&#10;20x item1 @ 223&#10;12x item10 @ 92&#10;8x item2 @ 2244&#10;19x item4 @ 924&#10;18x item5 @ 6828&#10;" type="SH"/>
+<facility lat="51.53624692199452" lon="-0.17044396843935164" name="shop5" stock="10x item6 @ 254&#10;8x item8 @ 181&#10;13x item11 @ 108&#10;19x item9 @ 311&#10;17x item0 @ 159&#10;10x item2 @ 2361&#10;" type="SH"/>
+<facility lat="51.508919385986395" lon="-0.15237567472114819" name="shop6" stock="17x item3 @ 2037&#10;11x item8 @ 173&#10;15x item11 @ 111&#10;8x item1 @ 220&#10;19x item7 @ 27&#10;16x item10 @ 85&#10;9x item0 @ 171&#10;11x item2 @ 2619&#10;18x item4 @ 842&#10;" type="SH"/>
+<facility lat="51.52789325778578" lon="-0.08415535048600455" name="shop7" stock="19x item6 @ 235&#10;14x item1 @ 218&#10;21x item10 @ 94&#10;18x item0 @ 174&#10;10x item4 @ 783&#10;" type="SH"/>
+<facility lat="51.54238039929182" lon="-0.04910947974571035" name="shop8" stock="17x item3 @ 2012&#10;17x item6 @ 243&#10;10x item8 @ 203&#10;14x item0 @ 163&#10;" type="SH"/>
+<facility lat="51.53566721894944" lon="-0.032648539059624115" name="shop9" stock="15x item3 @ 1517&#10;12x item6 @ 268&#10;6x item8 @ 183&#10;15x item1 @ 226&#10;22x item11 @ 95&#10;10x item10 @ 103&#10;17x item2 @ 2339&#10;18x item4 @ 728&#10;" type="SH"/>
+</facilities>
+<agents>
+<agent batteryCapacity="500" charge="470" lastAction="goto" lastActionParam="lat=51.52212140669812 lon=-0.15160848322121095" lastActionResult="successful" lat="51.471300777650875" load="0" loadCapacity="550" lon="-0.052187970474801476" name="a1" products="" role="Car" team="A"/>
+<agent batteryCapacity="500" charge="470" lastAction="goto" lastActionParam="lat=51.49410959056033 lon=-0.14060906934811784" lastActionResult="successful" lat="51.469598498281584" load="0" loadCapacity="550" lon="-0.14977256521868518" name="a2" products="" role="Car" team="A"/>
+<agent batteryCapacity="500" charge="470" lastAction="goto" lastActionParam="lat=51.50063648748052 lon=-0.16789031396607557" lastActionResult="successful" lat="51.495390104913106" load="0" loadCapacity="550" lon="-0.16916459960878788" name="a3" products="" role="Car" team="A"/>
+<agent batteryCapacity="500" charge="470" lastAction="goto" lastActionParam="lat=51.482429711377165 lon=-0.1524183766113092" lastActionResult="successful" lat="51.47644733020426" load="0" loadCapacity="550" lon="-0.09889210287159507" name="a4" products="" role="Car" team="A"/>
+<agent batteryCapacity="250" charge="220" lastAction="goto" lastActionParam="lat=51.51502330739158 lon=-0.17185677666306803" lastActionResult="successful" lat="51.51287186434945" load="0" loadCapacity="100" lon="-0.1737767050699981" name="a5" products="" role="Drone" team="A"/>
+<agent batteryCapacity="250" charge="220" lastAction="goto" lastActionParam="lat=51.522138524586516 lon=-0.17370184742798406" lastActionResult="successful" lat="51.47397522944759" load="0" loadCapacity="100" lon="-0.09868268842046087" name="a6" products="" role="Drone" team="A"/>
+<agent batteryCapacity="250" charge="220" lastAction="goto" lastActionParam="lat=51.46712006324149 lon=-0.14086397459711592" lastActionResult="successful" lat="51.46717359721944" load="0" loadCapacity="100" lon="-0.1408691028419947" name="a7" products="" role="Drone" team="A"/>
+<agent batteryCapacity="250" charge="220" lastAction="goto" lastActionParam="lat=51.49102048537906 lon=-0.14090174451843668" lastActionResult="successful" lat="51.4787960493457" load="0" loadCapacity="100" lon="-0.13638692069733116" name="a8" products="" role="Drone" team="A"/>
+<agent batteryCapacity="350" charge="320" lastAction="goto" lastActionParam="lat=51.47769344391186 lon=-0.17937836432677928" lastActionResult="successful" lat="51.48655993198074" load="0" loadCapacity="300" lon="-0.16069695125737726" name="a9" products="" role="Motorcycle" team="A"/>
+<agent batteryCapacity="350" charge="320" lastAction="goto" lastActionParam="lat=51.50190672692727 lon=-0.16987756497918555" lastActionResult="successful" lat="51.51001596124306" load="0" loadCapacity="300" lon="-0.19070432302290302" name="a10" products="" role="Motorcycle" team="A"/>
+<agent batteryCapacity="350" charge="320" lastAction="goto" lastActionParam="lat=51.49248047520354 lon=-0.1723021732511429" lastActionResult="successful" lat="51.49222583843864" load="0" loadCapacity="300" lon="-0.08314090466500146" name="a11" products="" role="Motorcycle" team="A"/>
+<agent batteryCapacity="350" charge="320" lastAction="goto" lastActionParam="lat=51.46844153180178 lon=-0.15370455906962088" lastActionResult="successful" lat="51.49481299118371" load="0" loadCapacity="300" lon="-0.05042457490279428" name="a12" products="" role="Motorcycle" team="A"/>
+<agent batteryCapacity="1000" charge="970" lastAction="goto" lastActionParam="lat=51.50922465272543 lon=-0.1631723986845405" lastActionResult="successful" lat="51.503755561858355" load="0" loadCapacity="3000" lon="-0.04682806078876541" name="a13" products="" role="Truck" team="A"/>
+<agent batteryCapacity="1000" charge="970" lastAction="goto" lastActionParam="lat=51.48206369853669 lon=-0.1498391556142906" lastActionResult="successful" lat="51.517643535563394" load="0" loadCapacity="3000" lon="-0.04267009220064553" name="a14" products="" role="Truck" team="A"/>
+<agent batteryCapacity="1000" charge="970" lastAction="goto" lastActionParam="lat=51.49569385216121 lon=-0.1955433614151948" lastActionResult="successful" lat="51.473530945777576" load="0" loadCapacity="3000" lon="-0.11273789103069211" name="a15" products="" role="Truck" team="A"/>
+<agent batteryCapacity="1000" charge="970" lastAction="goto" lastActionParam="lat=51.48645891822558 lon=-0.1843350417535914" lastActionResult="successful" lat="51.47976773340468" load="0" loadCapacity="3000" lon="-0.05734960199274401" name="a16" products="" role="Truck" team="A"/>
+<agent batteryCapacity="500" charge="470" lastAction="goto" lastActionParam="lat=51.51066565446502 lon=-0.18054751908961536" lastActionResult="successful" lat="51.471300777650875" load="0" loadCapacity="550" lon="-0.052187970474801476" name="b1" products="" role="Car" team="B"/>
+<agent batteryCapacity="500" charge="470" lastAction="goto" lastActionParam="lat=51.478096617167225 lon=-0.1558136424960325" lastActionResult="successful" lat="51.469598498281584" load="0" loadCapacity="550" lon="-0.14977256521868518" name="b2" products="" role="Car" team="B"/>
+<agent batteryCapacity="500" charge="470" lastAction="goto" lastActionParam="lat=51.4910149699515 lon=-0.1785161055563588" lastActionResult="successful" lat="51.4910149699515" load="0" loadCapacity="550" lon="-0.1785161055563588" name="b3" products="" role="Car" team="B"/>
+<agent batteryCapacity="500" charge="470" lastAction="goto" lastActionParam="lat=51.46763744558855 lon=-0.1679444443790258" lastActionResult="successful" lat="51.47644733020426" load="0" loadCapacity="550" lon="-0.09889210287159507" name="b4" products="" role="Car" team="B"/>
+<agent batteryCapacity="250" charge="220" lastAction="goto" lastActionParam="lat=51.48730274472378 lon=-0.16047346978624005" lastActionResult="successful" lat="51.49380094414244" load="0" loadCapacity="100" lon="-0.17100013619895824" name="b5" products="" role="Drone" team="B"/>
+<agent batteryCapacity="250" charge="220" lastAction="goto" lastActionParam="lat=51.47614556058675 lon=-0.17582242598749886" lastActionResult="successful" lat="51.46757716161007" load="0" loadCapacity="100" lon="-0.10096286573283836" name="b6" products="" role="Drone" team="B"/>
+<agent batteryCapacity="250" charge="220" lastAction="goto" lastActionParam="lat=51.498873315297296 lon=-0.17199363281860336" lastActionResult="successful" lat="51.48879216483866" load="0" loadCapacity="100" lon="-0.15508748234832626" name="b7" products="" role="Drone" team="B"/>
+<agent batteryCapacity="250" charge="220" lastAction="goto" lastActionParam="lat=51.50304681812953 lon=-0.19672671634327066" lastActionResult="successful" lat="51.472296681898975" load="0" loadCapacity="100" lon="-0.1441388659561644" name="b8" products="" role="Drone" team="B"/>
+<agent batteryCapacity="350" charge="320" lastAction="goto" lastActionParam="lat=51.50306418059545 lon=-0.19213010849126502" lastActionResult="successful" lat="51.496297733633966" load="0" loadCapacity="300" lon="-0.15873333468818118" name="b9" products="" role="Motorcycle" team="B"/>
+<agent batteryCapacity="350" charge="320" lastAction="goto" lastActionParam="lat=51.51795989558402 lon=-0.15163488754413795" lastActionResult="successful" lat="51.51544480009915" load="0" loadCapacity="300" lon="-0.17586980584276182" name="b10" products="" role="Motorcycle" team="B"/>
+<agent batteryCapacity="350" charge="320" lastAction="goto" lastActionParam="lat=51.48508673959401 lon=-0.148349075428673" lastActionResult="successful" lat="51.49222583843864" load="0" loadCapacity="300" lon="-0.08314090466500146" name="b11" products="" role="Motorcycle" team="B"/>
+<agent batteryCapacity="350" charge="330" lastAction="goto" lastActionParam="lat=51.485385063472776 lon=-0.1664220632448601" lastActionResult="successful" lat="51.49236591867086" load="0" loadCapacity="300" lon="-0.04740076584155787" name="b12" products="" role="Motorcycle" team="B"/>
+<agent batteryCapacity="1000" charge="970" lastAction="goto" lastActionParam="lat=51.510345306096305 lon=-0.17903658475502976" lastActionResult="successful" lat="51.503755561858355" load="0" loadCapacity="3000" lon="-0.04682806078876541" name="b13" products="" role="Truck" team="B"/>
+<agent batteryCapacity="1000" charge="970" lastAction="goto" lastActionParam="lat=51.51158713058637 lon=-0.19741334253743784" lastActionResult="successful" lat="51.51775809921983" load="0" loadCapacity="3000" lon="-0.04278570209589181" name="b14" products="" role="Truck" team="B"/>
+<agent batteryCapacity="1000" charge="970" lastAction="goto" lastActionParam="lat=51.48412324505581 lon=-0.19331915768994484" lastActionResult="successful" lat="51.46216019435131" load="0" loadCapacity="3000" lon="-0.11520315955730259" name="b15" products="" role="Truck" team="B"/>
+<agent batteryCapacity="1000" charge="970" lastAction="goto" lastActionParam="lat=51.4870051748023 lon=-0.15369180749996283" lastActionResult="successful" lat="51.47976773340468" load="0" loadCapacity="3000" lon="-0.05734960199274401" name="b16" products="" role="Truck" team="B"/>
+</agents>
+<jobs>
+<job id="job_id6539740116870217573" itemsDel="" itemsReq="3x item3&#10; 5x item9&#10; 2x item10&#10; " poster="system" reward="0" status="1"/>
+</jobs>
+<teams>
+<team jobs="" money="50000" name="A"/>
+<team jobs="" money="50000" name="B"/>
+</teams>
+</state>
+</simulationstate>

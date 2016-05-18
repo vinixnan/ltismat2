@@ -1,0 +1,34 @@
+[ DEBUG  ]   ##   Server configured.
+[ NORMAL ]   ##   Connected to rmiregistry at localhost on port 1099
+[ DEBUG  ]  09:54:12 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   RMI HOST: localhost
+[ DEBUG  ]   ##   RMI PORT: 1099
+[ NORMAL ]   ##   Please press ENTER to start the tournament.
+[ NORMAL ]   ##   now playing: A vs B
+[ NORMAL ]   ##   ######################### new simulation run ----
+[ NORMAL ]   ##   Seed for map generation: 1450087553905
+[ NORMAL ]   ##   Products will be generated.
+[ NORMAL ]   ##   Facilities will be generated.
+[ NORMAL ]   ##   Jobs will be generated.
+[ NORMAL ]   ##   Agents will be positioned randomly.
+[ DEBUG  ]  09:54:19 1 massim.framework.DefaultObserver.start:18
+[ DEBUG  ]  09:54:19 1 massim.framework.DefaultObserver.start:18
+[ DEBUG  ]  09:54:19 1 massim.framework.ObjectDumperObserver.start:68
+[ DEBUG  ]   ##   creating...
+[ DEBUG  ]   ##   binding...
+[ DEBUG  ]   ##   bound
+[ DEBUG  ]  09:54:19 1 massim.framework.DefaultObserver.notifySimulationConfiguration:30
+[ DEBUG  ]  09:54:19 1 massim.framework.DefaultObserver.notifySimulationConfiguration:30
+[ DEBUG  ]  09:54:19 1 massim.framework.ObjectDumperObserver.notifySimulationStart:50
+[ DEBUG  ]  09:54:19 1 massim.framework.XMLOutputObserver.notifySimulationStart:41
+[ NORMAL ]   ##   item2 Volume: 208
+[ NORMAL ]   ##   item3 Volume: 68
+[ NORMAL ]   ##   item4 Volume: 83
+[ NORMAL ]   ##   item5 Volume: 172
+[ NORMAL ]   ##   item9 Volume: 48
+[ NORMAL ]   ##   Products generated.
+[ NORMAL ]   ##   Facilities generated.
+[ ERROR  ]   ##   CityMap: No route found: Not found
+[ ERROR  ]   ##   CityMap: No route found: Not found
+[ DEBUG  ]  09:54:19 1 massim.framework.ObjectDumperObserver.notifySimulationState:57

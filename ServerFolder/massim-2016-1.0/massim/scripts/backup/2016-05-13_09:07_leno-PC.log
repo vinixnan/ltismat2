@@ -1,0 +1,842 @@
+[ DEBUG  ]   ##   Server configured.
+[ NORMAL ]   ##   Connected to rmiregistry at localhost on port 1099
+[ DEBUG  ]  09:07:58 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   RMI HOST: localhost
+[ DEBUG  ]   ##   RMI PORT: 1099
+[ NORMAL ]   ##   Please press ENTER to start the tournament.
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:08:03 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]  09:08:03 19 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8"?><message type="auth-request"><authentication password="1" username="a1"/></message>
+[ NORMAL ]   ##   got authentication: username=a1 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=33627,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:08:03 22 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]  09:08:03 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8"?><message type="auth-request"><authentication password="1" username="a2"/></message>
+[ NORMAL ]   ##   got authentication: username=a2 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=33628,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:08:03 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:08:03 25 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8"?><message type="auth-request"><authentication password="1" username="a3"/></message>
+[ NORMAL ]   ##   got authentication: username=a3 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=33629,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:08:03 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:08:03 28 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8"?><message type="auth-request"><authentication password="1" username="a4"/></message>
+[ NORMAL ]   ##   got authentication: username=a4 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=33630,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:08:03 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]  09:08:03 31 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8"?><message type="auth-request"><authentication password="1" username="a5"/></message>
+[ NORMAL ]   ##   got authentication: username=a5 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=33631,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:08:03 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:08:03 34 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8"?><message type="auth-request"><authentication password="1" username="a6"/></message>
+[ NORMAL ]   ##   got authentication: username=a6 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=33632,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:08:03 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]  09:08:03 37 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8"?><message type="auth-request"><authentication password="1" username="a7"/></message>
+[ NORMAL ]   ##   got authentication: username=a7 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=33633,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:08:03 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:08:03 40 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8"?><message type="auth-request"><authentication password="1" username="a8"/></message>
+[ NORMAL ]   ##   got authentication: username=a8 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=33634,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:08:03 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]  09:08:03 43 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8"?><message type="auth-request"><authentication password="1" username="a9"/></message>
+[ NORMAL ]   ##   got authentication: username=a9 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=33635,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:08:03 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]  09:08:03 46 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8"?><message type="auth-request"><authentication password="1" username="a10"/></message>
+[ NORMAL ]   ##   got authentication: username=a10 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=33636,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:08:03 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]  09:08:03 49 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8"?><message type="auth-request"><authentication password="1" username="a11"/></message>
+[ NORMAL ]   ##   got authentication: username=a11 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=33637,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:08:03 52 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]  09:08:03 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8"?><message type="auth-request"><authentication password="1" username="a12"/></message>
+[ NORMAL ]   ##   got authentication: username=a12 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=33638,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:08:03 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]  09:08:03 55 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8"?><message type="auth-request"><authentication password="1" username="a13"/></message>
+[ NORMAL ]   ##   got authentication: username=a13 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=33639,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:08:03 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:08:03 58 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8"?><message type="auth-request"><authentication password="1" username="a14"/></message>
+[ NORMAL ]   ##   got authentication: username=a14 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=33640,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:08:03 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]  09:08:03 61 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8"?><message type="auth-request"><authentication password="1" username="a15"/></message>
+[ NORMAL ]   ##   got authentication: username=a15 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=33641,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:08:03 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:08:03 64 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8"?><message type="auth-request"><authentication password="1" username="a16"/></message>
+[ NORMAL ]   ##   got authentication: username=a16 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=33642,localport=12300]
+[ NORMAL ]   ##   now playing: A vs B
+[ NORMAL ]   ##   ######################### new simulation run ----
+[ NORMAL ]   ##   Seed for map generation: 1450087553905
+[ NORMAL ]   ##   Products will be generated.
+[ NORMAL ]   ##   Facilities will be generated.
+[ NORMAL ]   ##   Jobs will be generated.
+[ NORMAL ]   ##   Agents will be positioned randomly.
+[ DEBUG  ]  09:08:05 1 massim.framework.DefaultObserver.start:18
+[ DEBUG  ]  09:08:05 1 massim.framework.DefaultObserver.start:18
+[ DEBUG  ]  09:08:05 1 massim.framework.ObjectDumperObserver.start:68
+[ DEBUG  ]   ##   creating...
+[ DEBUG  ]   ##   binding...
+[ DEBUG  ]   ##   bound
+[ DEBUG  ]  09:08:05 1 massim.framework.DefaultObserver.notifySimulationConfiguration:30
+[ DEBUG  ]  09:08:05 1 massim.framework.DefaultObserver.notifySimulationConfiguration:30
+[ DEBUG  ]  09:08:05 1 massim.framework.ObjectDumperObserver.notifySimulationStart:50
+[ DEBUG  ]  09:08:05 1 massim.framework.XMLOutputObserver.notifySimulationStart:41
+[ NORMAL ]   ##   item2 Volume: 208
+[ NORMAL ]   ##   item3 Volume: 68
+[ NORMAL ]   ##   item4 Volume: 83
+[ NORMAL ]   ##   item5 Volume: 172
+[ NORMAL ]   ##   item9 Volume: 48
+[ NORMAL ]   ##   Products generated.
+[ NORMAL ]   ##   Facilities generated.
+[ ERROR  ]   ##   CityMap: No route found: Not found
+[ ERROR  ]   ##   CityMap: No route found: Not found
+[ DEBUG  ]  09:08:06 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b16
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b14
+[ NORMAL ]   ##   Simulation at step: 1
+[ DEBUG  ]  09:08:10 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b16
+[ NORMAL ]   ##   Simulation at step: 2
+[ DEBUG  ]  09:08:13 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a16
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b16
+[ NORMAL ]   ##   Simulation at step: 3
+[ DEBUG  ]  09:08:17 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a16
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b16
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b15
+[ NORMAL ]   ##   Simulation at step: 4
+[ DEBUG  ]  09:08:21 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a16
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b16
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b14
+[ NORMAL ]   ##   Simulation at step: 5
+[ DEBUG  ]  09:08:24 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a16
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b16
+[ NORMAL ]   ##   Simulation at step: 6
+[ DEBUG  ]  09:08:28 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a16
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b16
+[ NORMAL ]   ##   Simulation at step: 7
+[ DEBUG  ]  09:08:31 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a16
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b16
+[ NORMAL ]   ##   Simulation at step: 8
+[ DEBUG  ]  09:08:35 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a16
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b16
+[ NORMAL ]   ##   Simulation at step: 9
+[ DEBUG  ]  09:08:39 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a16
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b16
+[ NORMAL ]   ##   Simulation at step: 10
+[ DEBUG  ]  09:08:42 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a16
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b16
+[ NORMAL ]   ##   Simulation at step: 11
+[ DEBUG  ]  09:08:46 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a16
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b16
+[ NORMAL ]   ##   Simulation at step: 12
+[ DEBUG  ]  09:08:50 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a16
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b16
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b15
+[ NORMAL ]   ##   Simulation at step: 13
+[ DEBUG  ]  09:08:53 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a16
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b16
+[ NORMAL ]   ##   Simulation at step: 14
+[ DEBUG  ]  09:08:57 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a16
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b16
+[ NORMAL ]   ##   Simulation at step: 15
+[ DEBUG  ]  09:09:01 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a16
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b16
+[ NORMAL ]   ##   Simulation at step: 16
+[ DEBUG  ]  09:09:04 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a16
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b16
+[ NORMAL ]   ##   Simulation at step: 17
+[ DEBUG  ]  09:09:08 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a16
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b16
+[ NORMAL ]   ##   Simulation at step: 18
+[ DEBUG  ]  09:09:12 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a16
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b16
+[ NORMAL ]   ##   Simulation at step: 19
+[ DEBUG  ]  09:09:15 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a16
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b1
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b2
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b3
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b4
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b5
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b6
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b7
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b8
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b9
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b10
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b12
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b11
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b13
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b14
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b15
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to b16
+[ NORMAL ]   ##   Simulation at step: 20
+[ DEBUG  ]  09:09:19 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ DEBUG  ]   ##   Error while writing to socket. Abandoning socket
+[ DEBUG  ]   ##   Thread finished successfully.
+[ DEBUG  ]   ##   Error while writing to socket. Abandoning socket
+[ DEBUG  ]   ##   Thread finished successfully.
+[ DEBUG  ]   ##   Error while writing to socket. Abandoning socket
+[ DEBUG  ]   ##   Thread finished successfully.
+[ DEBUG  ]   ##   Error while writing to socket. Abandoning socket
+[ DEBUG  ]   ##   Thread finished successfully.
+[ DEBUG  ]   ##   Error while writing to socket. Abandoning socket
+[ DEBUG  ]   ##   Thread finished successfully.
+[ DEBUG  ]   ##   Error while writing to socket. Abandoning socket
+[ DEBUG  ]   ##   Thread finished successfully.
+[ DEBUG  ]   ##   Error while writing to socket. Abandoning socket
+[ DEBUG  ]   ##   Thread finished successfully.
+[ DEBUG  ]   ##   Error while writing to socket. Abandoning socket
+[ DEBUG  ]   ##   Thread finished successfully.
+[ DEBUG  ]   ##   Error while writing to socket. Abandoning socket
+[ DEBUG  ]   ##   Thread finished successfully.
+[ DEBUG  ]   ##   Error while writing to socket. Abandoning socket
+[ DEBUG  ]   ##   Thread finished successfully.
+[ DEBUG  ]   ##   Error while writing to socket. Abandoning socket
+[ DEBUG  ]   ##   Thread finished successfully.
+[ DEBUG  ]   ##   Error while writing to socket. Abandoning socket
+[ DEBUG  ]   ##   Thread finished successfully.
+[ DEBUG  ]   ##   Error while writing to socket. Abandoning socket
+[ DEBUG  ]   ##   Thread finished successfully.
+[ DEBUG  ]   ##   Error while writing to socket. Abandoning socket
+[ DEBUG  ]   ##   Thread finished successfully.
+[ DEBUG  ]   ##   Error while writing to socket. Abandoning socket
+[ DEBUG  ]   ##   Thread finished successfully.
+[ DEBUG  ]   ##   Error while writing to socket. Abandoning socket
+[ DEBUG  ]   ##   Thread finished successfully.

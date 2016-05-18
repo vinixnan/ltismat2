@@ -1,0 +1,419 @@
+[ DEBUG  ]   ##   Server configured.
+[ NORMAL ]   ##   Connected to rmiregistry at localhost on port 1099
+[ DEBUG  ]  09:44:37 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   RMI HOST: localhost
+[ DEBUG  ]   ##   RMI PORT: 1099
+[ NORMAL ]   ##   Please press ENTER to start the tournament.
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 20 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a1"/></message>
+[ NORMAL ]   ##   got authentication: username=a1 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35978,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 23 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a2"/></message>
+[ NORMAL ]   ##   got authentication: username=a2 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35979,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 26 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a3"/></message>
+[ NORMAL ]   ##   got authentication: username=a3 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35980,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 29 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a4"/></message>
+[ NORMAL ]   ##   got authentication: username=a4 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35981,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 32 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a5"/></message>
+[ NORMAL ]   ##   got authentication: username=a5 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35982,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 35 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a6"/></message>
+[ NORMAL ]   ##   got authentication: username=a6 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35983,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]  09:44:40 38 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a7"/></message>
+[ NORMAL ]   ##   got authentication: username=a7 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35984,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 41 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a8"/></message>
+[ NORMAL ]   ##   got authentication: username=a8 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35985,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 44 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a9"/></message>
+[ NORMAL ]   ##   got authentication: username=a9 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35986,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 47 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a10"/></message>
+[ NORMAL ]   ##   got authentication: username=a10 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35987,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 50 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a11"/></message>
+[ NORMAL ]   ##   got authentication: username=a11 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35988,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 53 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a12"/></message>
+[ NORMAL ]   ##   got authentication: username=a12 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35989,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]  09:44:40 56 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a13"/></message>
+[ NORMAL ]   ##   got authentication: username=a13 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35990,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 59 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a14"/></message>
+[ NORMAL ]   ##   got authentication: username=a14 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35991,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]  09:44:40 62 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a15"/></message>
+[ NORMAL ]   ##   got authentication: username=a15 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35992,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 65 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a16"/></message>
+[ NORMAL ]   ##   got authentication: username=a16 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35993,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 68 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b1"/></message>
+[ NORMAL ]   ##   got authentication: username=b1 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35994,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 71 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b2"/></message>
+[ NORMAL ]   ##   got authentication: username=b2 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35995,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 74 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b3"/></message>
+[ NORMAL ]   ##   got authentication: username=b3 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35996,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 77 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b4"/></message>
+[ NORMAL ]   ##   got authentication: username=b4 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35997,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 80 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b5"/></message>
+[ NORMAL ]   ##   got authentication: username=b5 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35998,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 83 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b6"/></message>
+[ NORMAL ]   ##   got authentication: username=b6 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35999,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 86 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b7"/></message>
+[ NORMAL ]   ##   got authentication: username=b7 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=36000,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 89 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b8"/></message>
+[ NORMAL ]   ##   got authentication: username=b8 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=36001,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 92 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b9"/></message>
+[ NORMAL ]   ##   got authentication: username=b9 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=36002,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 95 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b10"/></message>
+[ NORMAL ]   ##   got authentication: username=b10 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=36003,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 98 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b11"/></message>
+[ NORMAL ]   ##   got authentication: username=b11 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=36004,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 101 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b12"/></message>
+[ NORMAL ]   ##   got authentication: username=b12 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=36005,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 104 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b13"/></message>
+[ NORMAL ]   ##   got authentication: username=b13 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=36006,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 107 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b14"/></message>
+[ NORMAL ]   ##   got authentication: username=b14 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=36007,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 110 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b15"/></message>
+[ NORMAL ]   ##   got authentication: username=b15 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=36008,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:44:40 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:44:40 113 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b16"/></message>
+[ NORMAL ]   ##   got authentication: username=b16 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=36009,localport=12300]
+[ NORMAL ]   ##   now playing: A vs B
+[ NORMAL ]   ##   ######################### new simulation run ----
+[ NORMAL ]   ##   Seed for map generation: 1450087553905
+[ NORMAL ]   ##   Products will be generated.
+[ NORMAL ]   ##   Facilities will be generated.
+[ NORMAL ]   ##   Jobs will be generated.
+[ NORMAL ]   ##   Agents will be positioned randomly.
+[ DEBUG  ]  09:44:43 1 massim.framework.DefaultObserver.start:18
+[ DEBUG  ]  09:44:43 1 massim.framework.DefaultObserver.start:18
+[ DEBUG  ]  09:44:43 1 massim.framework.ObjectDumperObserver.start:68
+[ DEBUG  ]   ##   creating...
+[ DEBUG  ]   ##   binding...
+[ DEBUG  ]   ##   bound
+[ DEBUG  ]  09:44:43 1 massim.framework.DefaultObserver.notifySimulationConfiguration:30
+[ DEBUG  ]  09:44:43 1 massim.framework.DefaultObserver.notifySimulationConfiguration:30
+[ DEBUG  ]  09:44:43 1 massim.framework.ObjectDumperObserver.notifySimulationStart:50
+[ DEBUG  ]  09:44:43 1 massim.framework.XMLOutputObserver.notifySimulationStart:41
+[ NORMAL ]   ##   item2 Volume: 208
+[ NORMAL ]   ##   item3 Volume: 68
+[ NORMAL ]   ##   item4 Volume: 83
+[ NORMAL ]   ##   item5 Volume: 172
+[ NORMAL ]   ##   item9 Volume: 48
+[ NORMAL ]   ##   Products generated.
+[ NORMAL ]   ##   Facilities generated.
+[ ERROR  ]   ##   CityMap: No route found: Not found
+[ ERROR  ]   ##   CityMap: No route found: Not found
+[ DEBUG  ]  09:44:44 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 1
+[ DEBUG  ]  09:44:44 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   No valid document received in time. Returning InvalidAction to a1
+[ NORMAL ]   ##   Simulation at step: 2
+[ DEBUG  ]  09:44:48 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 3
+[ DEBUG  ]  09:44:48 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 4
+[ DEBUG  ]  09:44:48 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 5
+[ DEBUG  ]  09:44:48 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 6
+[ DEBUG  ]  09:44:49 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 7
+[ DEBUG  ]  09:44:49 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 8
+[ DEBUG  ]  09:44:49 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 9
+[ DEBUG  ]  09:44:49 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 10
+[ DEBUG  ]  09:44:49 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 11
+[ DEBUG  ]  09:44:49 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 12
+[ DEBUG  ]  09:44:50 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 13
+[ DEBUG  ]  09:44:50 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 14
+[ DEBUG  ]  09:44:50 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 15
+[ DEBUG  ]  09:44:50 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 16
+[ DEBUG  ]  09:44:50 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 17
+[ DEBUG  ]  09:44:50 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 18
+[ DEBUG  ]  09:44:51 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 19
+[ DEBUG  ]  09:44:51 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 20
+[ DEBUG  ]  09:44:51 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 21
+[ DEBUG  ]  09:44:51 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 22
+[ DEBUG  ]  09:44:51 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 23
+[ DEBUG  ]  09:44:51 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 24
+[ DEBUG  ]  09:44:51 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 25
+[ DEBUG  ]  09:44:52 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 26
+[ DEBUG  ]  09:44:52 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 27
+[ DEBUG  ]  09:44:52 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 28
+[ DEBUG  ]  09:44:52 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 29
+[ DEBUG  ]  09:44:52 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 30
+[ DEBUG  ]  09:44:52 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 31
+[ DEBUG  ]  09:44:52 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 32
+[ DEBUG  ]  09:44:53 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 33
+[ DEBUG  ]  09:44:53 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 34
+[ DEBUG  ]  09:44:53 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 35
+[ DEBUG  ]  09:44:53 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 36
+[ DEBUG  ]  09:44:53 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 37
+[ DEBUG  ]  09:44:53 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 38
+[ DEBUG  ]  09:44:54 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 39
+[ DEBUG  ]  09:44:54 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 40
+[ DEBUG  ]  09:44:54 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 41
+[ DEBUG  ]  09:44:54 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 42
+[ DEBUG  ]  09:44:54 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 43
+[ DEBUG  ]  09:44:54 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 44
+[ DEBUG  ]  09:44:54 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 45
+[ DEBUG  ]  09:44:55 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 46
+[ DEBUG  ]  09:44:55 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 47
+[ DEBUG  ]  09:44:55 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 48
+[ DEBUG  ]  09:44:55 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 49
+[ DEBUG  ]  09:44:55 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 50
+[ DEBUG  ]  09:44:55 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 51
+[ DEBUG  ]  09:44:55 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 52
+[ DEBUG  ]  09:44:56 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 53
+[ DEBUG  ]  09:44:56 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 54
+[ DEBUG  ]  09:44:56 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 55
+[ DEBUG  ]  09:44:56 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 56
+[ DEBUG  ]  09:44:56 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 57
+[ DEBUG  ]  09:44:56 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 58
+[ DEBUG  ]  09:44:56 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 59
+[ DEBUG  ]  09:44:57 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 60
+[ DEBUG  ]  09:44:57 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 61
+[ DEBUG  ]  09:44:57 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 62
+[ DEBUG  ]  09:44:57 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 63
+[ DEBUG  ]  09:44:57 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 64
+[ DEBUG  ]  09:44:57 1 massim.framework.ObjectDumperObserver.notifySimulationState:57

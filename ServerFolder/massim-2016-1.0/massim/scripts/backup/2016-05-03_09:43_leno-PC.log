@@ -1,0 +1,1120 @@
+[ DEBUG  ]   ##   Server configured.
+[ NORMAL ]   ##   Connected to rmiregistry at localhost on port 1099
+[ DEBUG  ]  09:43:02 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   RMI HOST: localhost
+[ DEBUG  ]   ##   RMI PORT: 1099
+[ NORMAL ]   ##   Please press ENTER to start the tournament.
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:43:20 20 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a1"/></message>
+[ NORMAL ]   ##   got authentication: username=a1 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35925,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:43:20 23 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a2"/></message>
+[ NORMAL ]   ##   got authentication: username=a2 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35926,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:43:20 26 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a3"/></message>
+[ NORMAL ]   ##   got authentication: username=a3 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35927,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:43:20 29 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a4"/></message>
+[ NORMAL ]   ##   got authentication: username=a4 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35928,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:43:20 32 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a5"/></message>
+[ NORMAL ]   ##   got authentication: username=a5 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35929,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:43:20 35 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a6"/></message>
+[ NORMAL ]   ##   got authentication: username=a6 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35930,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:43:20 38 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a7"/></message>
+[ NORMAL ]   ##   got authentication: username=a7 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35931,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 41 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a8"/></message>
+[ NORMAL ]   ##   got authentication: username=a8 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35932,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 44 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a9"/></message>
+[ NORMAL ]   ##   got authentication: username=a9 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35933,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 47 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a10"/></message>
+[ NORMAL ]   ##   got authentication: username=a10 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35934,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 50 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a11"/></message>
+[ NORMAL ]   ##   got authentication: username=a11 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35935,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 53 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a12"/></message>
+[ NORMAL ]   ##   got authentication: username=a12 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35936,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 56 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a13"/></message>
+[ NORMAL ]   ##   got authentication: username=a13 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35937,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 59 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a14"/></message>
+[ NORMAL ]   ##   got authentication: username=a14 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35938,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:43:20 62 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a15"/></message>
+[ NORMAL ]   ##   got authentication: username=a15 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35939,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 65 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="a16"/></message>
+[ NORMAL ]   ##   got authentication: username=a16 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35940,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:43:20 68 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b1"/></message>
+[ NORMAL ]   ##   got authentication: username=b1 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35941,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:43:20 71 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b2"/></message>
+[ NORMAL ]   ##   got authentication: username=b2 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35942,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:43:20 74 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b3"/></message>
+[ NORMAL ]   ##   got authentication: username=b3 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35943,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 77 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b4"/></message>
+[ NORMAL ]   ##   got authentication: username=b4 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35944,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:43:20 80 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b5"/></message>
+[ NORMAL ]   ##   got authentication: username=b5 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35945,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 83 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b6"/></message>
+[ NORMAL ]   ##   got authentication: username=b6 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35946,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:43:20 86 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b7"/></message>
+[ NORMAL ]   ##   got authentication: username=b7 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35947,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:43:20 89 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b8"/></message>
+[ NORMAL ]   ##   got authentication: username=b8 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35948,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:43:20 92 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b9"/></message>
+[ NORMAL ]   ##   got authentication: username=b9 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35949,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:43:20 95 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b10"/></message>
+[ NORMAL ]   ##   got authentication: username=b10 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35950,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 98 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b11"/></message>
+[ NORMAL ]   ##   got authentication: username=b11 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35951,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 101 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b12"/></message>
+[ NORMAL ]   ##   got authentication: username=b12 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35952,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:43:20 104 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b13"/></message>
+[ NORMAL ]   ##   got authentication: username=b13 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35953,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 107 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b14"/></message>
+[ NORMAL ]   ##   got authentication: username=b14 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35954,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 110 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b15"/></message>
+[ NORMAL ]   ##   got authentication: username=b15 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35955,localport=12300]
+[ DEBUG  ]   ##   got a connection
+[ DEBUG  ]  09:43:20 10 massim.framework.connection.InetSocketListener.waitForIncomingSocket:28
+[ DEBUG  ]  09:43:20 113 massim.framework.connection.AbstractSocketLoginManager.handleSocket:33
+[ DEBUG  ]   ##   waiting for connection...
+[ DEBUG  ]   ##   retrieving authentication from client 
+[ DEBUG  ]   ##   <?xml version="1.0" encoding="UTF-8" standalone="no"?><message type="auth-request"><authentication password="1" username="b16"/></message>
+[ NORMAL ]   ##   got authentication: username=b16 password=1 Address=127.0.0.1
+[ DEBUG  ]   ##   received socket:Socket[addr=/127.0.0.1,port=35956,localport=12300]
+[ NORMAL ]   ##   now playing: A vs B
+[ NORMAL ]   ##   ######################### new simulation run ----
+[ NORMAL ]   ##   Seed for map generation: 1450087553905
+[ NORMAL ]   ##   Products will be generated.
+[ NORMAL ]   ##   Facilities will be generated.
+[ NORMAL ]   ##   Jobs will be generated.
+[ NORMAL ]   ##   Agents will be positioned randomly.
+[ DEBUG  ]  09:43:27 1 massim.framework.DefaultObserver.start:18
+[ DEBUG  ]  09:43:27 1 massim.framework.DefaultObserver.start:18
+[ DEBUG  ]  09:43:27 1 massim.framework.ObjectDumperObserver.start:68
+[ DEBUG  ]   ##   creating...
+[ DEBUG  ]   ##   binding...
+[ DEBUG  ]   ##   bound
+[ DEBUG  ]  09:43:27 1 massim.framework.DefaultObserver.notifySimulationConfiguration:30
+[ DEBUG  ]  09:43:27 1 massim.framework.DefaultObserver.notifySimulationConfiguration:30
+[ DEBUG  ]  09:43:27 1 massim.framework.ObjectDumperObserver.notifySimulationStart:50
+[ DEBUG  ]  09:43:27 1 massim.framework.XMLOutputObserver.notifySimulationStart:41
+[ NORMAL ]   ##   item2 Volume: 208
+[ NORMAL ]   ##   item3 Volume: 68
+[ NORMAL ]   ##   item4 Volume: 83
+[ NORMAL ]   ##   item5 Volume: 172
+[ NORMAL ]   ##   item9 Volume: 48
+[ NORMAL ]   ##   Products generated.
+[ NORMAL ]   ##   Facilities generated.
+[ ERROR  ]   ##   CityMap: No route found: Not found
+[ ERROR  ]   ##   CityMap: No route found: Not found
+[ DEBUG  ]  09:43:28 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 1
+[ DEBUG  ]  09:43:28 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 2
+[ DEBUG  ]  09:43:28 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 3
+[ DEBUG  ]  09:43:29 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 4
+[ DEBUG  ]  09:43:30 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 5
+[ DEBUG  ]  09:43:30 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 6
+[ DEBUG  ]  09:43:30 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 7
+[ DEBUG  ]  09:43:30 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 8
+[ DEBUG  ]  09:43:30 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 9
+[ DEBUG  ]  09:43:31 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 10
+[ DEBUG  ]  09:43:31 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 11
+[ DEBUG  ]  09:43:31 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 12
+[ DEBUG  ]  09:43:31 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 13
+[ DEBUG  ]  09:43:31 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 14
+[ DEBUG  ]  09:43:31 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 15
+[ DEBUG  ]  09:43:32 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 16
+[ DEBUG  ]  09:43:32 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 17
+[ DEBUG  ]  09:43:32 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 18
+[ DEBUG  ]  09:43:32 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 19
+[ DEBUG  ]  09:43:32 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 20
+[ DEBUG  ]  09:43:32 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 21
+[ DEBUG  ]  09:43:32 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 22
+[ DEBUG  ]  09:43:33 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 23
+[ DEBUG  ]  09:43:33 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 24
+[ DEBUG  ]  09:43:33 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 25
+[ DEBUG  ]  09:43:33 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 26
+[ DEBUG  ]  09:43:33 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 27
+[ DEBUG  ]  09:43:33 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 28
+[ DEBUG  ]  09:43:34 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 29
+[ DEBUG  ]  09:43:34 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 30
+[ DEBUG  ]  09:43:34 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 31
+[ DEBUG  ]  09:43:34 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 32
+[ DEBUG  ]  09:43:34 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 33
+[ DEBUG  ]  09:43:34 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 34
+[ DEBUG  ]  09:43:34 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 35
+[ DEBUG  ]  09:43:35 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 36
+[ DEBUG  ]  09:43:35 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 37
+[ DEBUG  ]  09:43:35 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 38
+[ DEBUG  ]  09:43:35 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 39
+[ DEBUG  ]  09:43:35 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 40
+[ DEBUG  ]  09:43:35 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 41
+[ DEBUG  ]  09:43:36 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 42
+[ DEBUG  ]  09:43:36 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 43
+[ DEBUG  ]  09:43:36 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 44
+[ DEBUG  ]  09:43:36 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 45
+[ DEBUG  ]  09:43:36 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 46
+[ DEBUG  ]  09:43:36 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 47
+[ DEBUG  ]  09:43:36 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 48
+[ DEBUG  ]  09:43:37 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 49
+[ DEBUG  ]  09:43:37 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 50
+[ DEBUG  ]  09:43:37 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 51
+[ DEBUG  ]  09:43:37 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 52
+[ DEBUG  ]  09:43:37 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 53
+[ DEBUG  ]  09:43:37 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 54
+[ DEBUG  ]  09:43:37 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 55
+[ DEBUG  ]  09:43:38 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 56
+[ DEBUG  ]  09:43:38 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 57
+[ DEBUG  ]  09:43:38 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 58
+[ DEBUG  ]  09:43:38 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 59
+[ DEBUG  ]  09:43:38 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 60
+[ DEBUG  ]  09:43:38 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 61
+[ DEBUG  ]  09:43:38 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 62
+[ DEBUG  ]  09:43:39 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 63
+[ DEBUG  ]  09:43:39 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 64
+[ DEBUG  ]  09:43:39 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 65
+[ DEBUG  ]  09:43:39 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 66
+[ DEBUG  ]  09:43:39 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 67
+[ DEBUG  ]  09:43:39 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 68
+[ DEBUG  ]  09:43:39 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 69
+[ DEBUG  ]  09:43:40 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 70
+[ DEBUG  ]  09:43:40 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 71
+[ DEBUG  ]  09:43:40 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 72
+[ DEBUG  ]  09:43:40 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 73
+[ DEBUG  ]  09:43:40 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 74
+[ DEBUG  ]  09:43:40 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 75
+[ DEBUG  ]  09:43:41 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 76
+[ DEBUG  ]  09:43:41 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 77
+[ DEBUG  ]  09:43:41 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 78
+[ DEBUG  ]  09:43:41 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 79
+[ DEBUG  ]  09:43:41 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 80
+[ DEBUG  ]  09:43:41 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 81
+[ DEBUG  ]  09:43:41 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 82
+[ DEBUG  ]  09:43:42 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 83
+[ DEBUG  ]  09:43:42 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 84
+[ DEBUG  ]  09:43:42 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 85
+[ DEBUG  ]  09:43:42 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 86
+[ DEBUG  ]  09:43:42 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 87
+[ DEBUG  ]  09:43:42 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 88
+[ DEBUG  ]  09:43:42 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 89
+[ DEBUG  ]  09:43:43 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 90
+[ DEBUG  ]  09:43:43 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 91
+[ DEBUG  ]  09:43:43 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 92
+[ DEBUG  ]  09:43:43 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 93
+[ DEBUG  ]  09:43:43 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 94
+[ DEBUG  ]  09:43:43 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 95
+[ DEBUG  ]  09:43:43 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 96
+[ DEBUG  ]  09:43:44 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 97
+[ DEBUG  ]  09:43:44 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 98
+[ DEBUG  ]  09:43:44 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 99
+[ DEBUG  ]  09:43:44 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 100
+[ DEBUG  ]  09:43:44 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 101
+[ DEBUG  ]  09:43:44 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 102
+[ DEBUG  ]  09:43:44 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 103
+[ DEBUG  ]  09:43:45 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 104
+[ DEBUG  ]  09:43:45 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 105
+[ DEBUG  ]  09:43:45 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 106
+[ DEBUG  ]  09:43:45 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 107
+[ DEBUG  ]  09:43:45 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 108
+[ DEBUG  ]  09:43:45 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 109
+[ DEBUG  ]  09:43:46 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 110
+[ DEBUG  ]  09:43:46 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 111
+[ DEBUG  ]  09:43:46 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 112
+[ DEBUG  ]  09:43:46 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 113
+[ DEBUG  ]  09:43:46 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 114
+[ DEBUG  ]  09:43:46 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 115
+[ DEBUG  ]  09:43:46 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 116
+[ DEBUG  ]  09:43:46 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 117
+[ DEBUG  ]  09:43:47 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 118
+[ DEBUG  ]  09:43:47 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 119
+[ DEBUG  ]  09:43:47 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 120
+[ DEBUG  ]  09:43:47 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 121
+[ DEBUG  ]  09:43:47 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 122
+[ DEBUG  ]  09:43:47 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 123
+[ DEBUG  ]  09:43:47 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 124
+[ DEBUG  ]  09:43:48 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 125
+[ DEBUG  ]  09:43:48 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 126
+[ DEBUG  ]  09:43:48 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 127
+[ DEBUG  ]  09:43:48 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 128
+[ DEBUG  ]  09:43:48 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 129
+[ DEBUG  ]  09:43:48 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 130
+[ DEBUG  ]  09:43:48 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 131
+[ DEBUG  ]  09:43:49 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 132
+[ DEBUG  ]  09:43:49 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 133
+[ DEBUG  ]  09:43:49 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 134
+[ DEBUG  ]  09:43:49 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 135
+[ DEBUG  ]  09:43:49 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 136
+[ DEBUG  ]  09:43:49 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 137
+[ DEBUG  ]  09:43:49 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 138
+[ DEBUG  ]  09:43:50 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 139
+[ DEBUG  ]  09:43:50 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 140
+[ DEBUG  ]  09:43:50 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 141
+[ DEBUG  ]  09:43:50 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 142
+[ DEBUG  ]  09:43:50 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 143
+[ DEBUG  ]  09:43:50 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 144
+[ DEBUG  ]  09:43:50 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 145
+[ DEBUG  ]  09:43:51 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 146
+[ DEBUG  ]  09:43:51 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 147
+[ DEBUG  ]  09:43:51 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 148
+[ DEBUG  ]  09:43:51 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 149
+[ DEBUG  ]  09:43:51 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 150
+[ DEBUG  ]  09:43:51 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 151
+[ DEBUG  ]  09:43:51 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 152
+[ DEBUG  ]  09:43:52 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 153
+[ DEBUG  ]  09:43:52 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 154
+[ DEBUG  ]  09:43:52 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 155
+[ DEBUG  ]  09:43:52 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 156
+[ DEBUG  ]  09:43:52 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 157
+[ DEBUG  ]  09:43:52 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 158
+[ DEBUG  ]  09:43:52 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 159
+[ DEBUG  ]  09:43:53 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 160
+[ DEBUG  ]  09:43:53 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 161
+[ DEBUG  ]  09:43:53 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 162
+[ DEBUG  ]  09:43:53 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 163
+[ DEBUG  ]  09:43:53 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 164
+[ DEBUG  ]  09:43:53 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 165
+[ DEBUG  ]  09:43:53 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 166
+[ DEBUG  ]  09:43:54 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 167
+[ DEBUG  ]  09:43:54 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 168
+[ DEBUG  ]  09:43:54 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 169
+[ DEBUG  ]  09:43:54 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 170
+[ DEBUG  ]  09:43:54 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 171
+[ DEBUG  ]  09:43:54 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 172
+[ DEBUG  ]  09:43:54 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 173
+[ DEBUG  ]  09:43:55 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 174
+[ DEBUG  ]  09:43:55 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 175
+[ DEBUG  ]  09:43:55 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 176
+[ DEBUG  ]  09:43:55 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 177
+[ DEBUG  ]  09:43:55 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 178
+[ DEBUG  ]  09:43:55 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 179
+[ DEBUG  ]  09:43:55 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 180
+[ DEBUG  ]  09:43:56 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 181
+[ DEBUG  ]  09:43:56 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 182
+[ DEBUG  ]  09:43:56 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 183
+[ DEBUG  ]  09:43:56 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 184
+[ DEBUG  ]  09:43:56 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 185
+[ DEBUG  ]  09:43:56 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 186
+[ DEBUG  ]  09:43:56 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 187
+[ DEBUG  ]  09:43:57 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 188
+[ DEBUG  ]  09:43:57 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 189
+[ DEBUG  ]  09:43:57 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 190
+[ DEBUG  ]  09:43:57 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 191
+[ DEBUG  ]  09:43:57 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 192
+[ DEBUG  ]  09:43:57 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 193
+[ DEBUG  ]  09:43:57 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 194
+[ DEBUG  ]  09:43:58 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 195
+[ DEBUG  ]  09:43:58 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 196
+[ DEBUG  ]  09:43:58 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 197
+[ DEBUG  ]  09:43:58 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 198
+[ DEBUG  ]  09:43:58 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 199
+[ DEBUG  ]  09:43:58 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 200
+[ DEBUG  ]  09:43:58 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 201
+[ DEBUG  ]  09:43:59 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 202
+[ DEBUG  ]  09:43:59 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 203
+[ DEBUG  ]  09:43:59 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 204
+[ DEBUG  ]  09:43:59 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 205
+[ DEBUG  ]  09:43:59 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 206
+[ DEBUG  ]  09:43:59 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 207
+[ DEBUG  ]  09:43:59 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 208
+[ DEBUG  ]  09:44:00 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 209
+[ DEBUG  ]  09:44:00 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 210
+[ DEBUG  ]  09:44:00 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 211
+[ DEBUG  ]  09:44:00 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 212
+[ DEBUG  ]  09:44:00 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 213
+[ DEBUG  ]  09:44:00 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 214
+[ DEBUG  ]  09:44:00 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 215
+[ DEBUG  ]  09:44:01 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 216
+[ DEBUG  ]  09:44:01 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 217
+[ DEBUG  ]  09:44:01 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 218
+[ DEBUG  ]  09:44:01 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 219
+[ DEBUG  ]  09:44:01 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 220
+[ DEBUG  ]  09:44:01 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 221
+[ DEBUG  ]  09:44:01 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 222
+[ DEBUG  ]  09:44:02 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 223
+[ DEBUG  ]  09:44:02 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 224
+[ DEBUG  ]  09:44:02 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 225
+[ DEBUG  ]  09:44:02 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 226
+[ DEBUG  ]  09:44:02 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 227
+[ DEBUG  ]  09:44:02 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 228
+[ DEBUG  ]  09:44:02 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 229
+[ DEBUG  ]  09:44:03 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 230
+[ DEBUG  ]  09:44:03 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 231
+[ DEBUG  ]  09:44:03 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 232
+[ DEBUG  ]  09:44:03 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 233
+[ DEBUG  ]  09:44:03 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 234
+[ DEBUG  ]  09:44:03 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 235
+[ DEBUG  ]  09:44:03 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 236
+[ DEBUG  ]  09:44:04 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 237
+[ DEBUG  ]  09:44:04 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 238
+[ DEBUG  ]  09:44:04 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 239
+[ DEBUG  ]  09:44:04 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 240
+[ DEBUG  ]  09:44:04 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 241
+[ DEBUG  ]  09:44:04 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 242
+[ DEBUG  ]  09:44:04 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 243
+[ DEBUG  ]  09:44:05 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 244
+[ DEBUG  ]  09:44:05 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 245
+[ DEBUG  ]  09:44:05 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 246
+[ DEBUG  ]  09:44:05 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 247
+[ DEBUG  ]  09:44:05 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 248
+[ DEBUG  ]  09:44:05 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 249
+[ DEBUG  ]  09:44:05 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 250
+[ DEBUG  ]  09:44:06 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 251
+[ DEBUG  ]  09:44:06 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 252
+[ DEBUG  ]  09:44:06 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 253
+[ DEBUG  ]  09:44:06 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 254
+[ DEBUG  ]  09:44:06 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 255
+[ DEBUG  ]  09:44:06 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 256
+[ DEBUG  ]  09:44:07 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 257
+[ DEBUG  ]  09:44:07 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 258
+[ DEBUG  ]  09:44:07 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 259
+[ DEBUG  ]  09:44:07 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 260
+[ DEBUG  ]  09:44:07 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 261
+[ DEBUG  ]  09:44:07 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 262
+[ DEBUG  ]  09:44:07 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 263
+[ DEBUG  ]  09:44:08 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 264
+[ DEBUG  ]  09:44:08 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 265
+[ DEBUG  ]  09:44:08 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 266
+[ DEBUG  ]  09:44:08 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 267
+[ DEBUG  ]  09:44:08 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 268
+[ DEBUG  ]  09:44:08 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 269
+[ DEBUG  ]  09:44:08 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 270
+[ DEBUG  ]  09:44:09 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 271
+[ DEBUG  ]  09:44:09 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 272
+[ DEBUG  ]  09:44:09 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 273
+[ DEBUG  ]  09:44:09 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 274
+[ DEBUG  ]  09:44:09 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 275
+[ DEBUG  ]  09:44:09 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 276
+[ DEBUG  ]  09:44:09 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 277
+[ DEBUG  ]  09:44:10 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 278
+[ DEBUG  ]  09:44:10 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 279
+[ DEBUG  ]  09:44:10 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 280
+[ DEBUG  ]  09:44:10 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 281
+[ DEBUG  ]  09:44:10 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 282
+[ DEBUG  ]  09:44:10 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 283
+[ DEBUG  ]  09:44:10 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 284
+[ DEBUG  ]  09:44:11 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 285
+[ DEBUG  ]  09:44:11 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 286
+[ DEBUG  ]  09:44:11 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 287
+[ DEBUG  ]  09:44:11 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 288
+[ DEBUG  ]  09:44:11 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 289
+[ DEBUG  ]  09:44:11 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 290
+[ DEBUG  ]  09:44:11 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 291
+[ DEBUG  ]  09:44:12 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 292
+[ DEBUG  ]  09:44:12 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 293
+[ DEBUG  ]  09:44:12 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 294
+[ DEBUG  ]  09:44:12 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 295
+[ DEBUG  ]  09:44:12 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 296
+[ DEBUG  ]  09:44:12 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 297
+[ DEBUG  ]  09:44:12 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 298
+[ DEBUG  ]  09:44:13 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 299
+[ DEBUG  ]  09:44:13 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 300
+[ DEBUG  ]  09:44:13 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 301
+[ DEBUG  ]  09:44:13 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 302
+[ DEBUG  ]  09:44:13 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 303
+[ DEBUG  ]  09:44:13 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 304
+[ DEBUG  ]  09:44:13 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 305
+[ DEBUG  ]  09:44:14 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 306
+[ DEBUG  ]  09:44:14 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 307
+[ DEBUG  ]  09:44:14 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 308
+[ DEBUG  ]  09:44:14 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 309
+[ DEBUG  ]  09:44:14 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 310
+[ DEBUG  ]  09:44:14 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 311
+[ DEBUG  ]  09:44:15 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 312
+[ DEBUG  ]  09:44:15 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 313
+[ DEBUG  ]  09:44:15 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 314
+[ DEBUG  ]  09:44:15 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 315
+[ DEBUG  ]  09:44:15 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 316
+[ DEBUG  ]  09:44:15 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 317
+[ DEBUG  ]  09:44:15 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 318
+[ DEBUG  ]  09:44:16 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 319
+[ DEBUG  ]  09:44:16 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 320
+[ DEBUG  ]  09:44:16 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 321
+[ DEBUG  ]  09:44:16 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 322
+[ DEBUG  ]  09:44:16 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 323
+[ DEBUG  ]  09:44:16 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 324
+[ DEBUG  ]  09:44:16 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 325
+[ DEBUG  ]  09:44:16 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 326
+[ DEBUG  ]  09:44:17 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 327
+[ DEBUG  ]  09:44:17 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 328
+[ DEBUG  ]  09:44:17 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 329
+[ DEBUG  ]  09:44:17 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 330
+[ DEBUG  ]  09:44:17 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 331
+[ DEBUG  ]  09:44:17 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 332
+[ DEBUG  ]  09:44:17 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 333
+[ DEBUG  ]  09:44:18 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 334
+[ DEBUG  ]  09:44:18 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 335
+[ DEBUG  ]  09:44:18 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 336
+[ DEBUG  ]  09:44:18 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 337
+[ DEBUG  ]  09:44:18 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 338
+[ DEBUG  ]  09:44:18 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 339
+[ DEBUG  ]  09:44:18 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 340
+[ DEBUG  ]  09:44:19 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 341
+[ DEBUG  ]  09:44:19 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 342
+[ DEBUG  ]  09:44:19 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 343
+[ DEBUG  ]  09:44:19 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 344
+[ DEBUG  ]  09:44:19 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 345
+[ DEBUG  ]  09:44:19 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 346
+[ DEBUG  ]  09:44:20 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 347
+[ DEBUG  ]  09:44:20 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 348
+[ DEBUG  ]  09:44:20 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 349
+[ DEBUG  ]  09:44:20 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 350
+[ DEBUG  ]  09:44:20 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 351
+[ DEBUG  ]  09:44:20 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 352
+[ DEBUG  ]  09:44:20 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 353
+[ DEBUG  ]  09:44:20 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 354
+[ DEBUG  ]  09:44:21 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 355
+[ DEBUG  ]  09:44:21 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 356
+[ DEBUG  ]  09:44:21 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 357
+[ DEBUG  ]  09:44:21 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 358
+[ DEBUG  ]  09:44:21 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 359
+[ DEBUG  ]  09:44:21 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 360
+[ DEBUG  ]  09:44:21 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 361
+[ DEBUG  ]  09:44:22 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 362
+[ DEBUG  ]  09:44:22 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 363
+[ DEBUG  ]  09:44:22 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 364
+[ DEBUG  ]  09:44:22 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 365
+[ DEBUG  ]  09:44:22 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 366
+[ DEBUG  ]  09:44:22 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 367
+[ DEBUG  ]  09:44:22 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 368
+[ DEBUG  ]  09:44:23 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 369
+[ DEBUG  ]  09:44:23 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 370
+[ DEBUG  ]  09:44:23 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 371
+[ DEBUG  ]  09:44:23 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 372
+[ DEBUG  ]  09:44:23 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 373
+[ DEBUG  ]  09:44:23 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 374
+[ DEBUG  ]  09:44:23 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 375
+[ DEBUG  ]  09:44:24 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 376
+[ DEBUG  ]  09:44:24 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 377
+[ DEBUG  ]  09:44:24 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 378
+[ DEBUG  ]  09:44:24 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 379
+[ DEBUG  ]  09:44:24 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 380
+[ DEBUG  ]  09:44:24 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 381
+[ DEBUG  ]  09:44:24 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 382
+[ DEBUG  ]  09:44:25 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 383
+[ DEBUG  ]  09:44:25 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 384
+[ DEBUG  ]  09:44:25 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 385
+[ DEBUG  ]  09:44:25 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 386
+[ DEBUG  ]  09:44:25 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 387
+[ DEBUG  ]  09:44:25 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 388
+[ DEBUG  ]  09:44:25 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 389
+[ DEBUG  ]  09:44:26 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 390
+[ DEBUG  ]  09:44:26 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 391
+[ DEBUG  ]  09:44:26 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 392
+[ DEBUG  ]  09:44:26 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 393
+[ DEBUG  ]  09:44:26 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 394
+[ DEBUG  ]  09:44:26 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 395
+[ DEBUG  ]  09:44:26 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 396
+[ DEBUG  ]  09:44:27 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 397
+[ DEBUG  ]  09:44:27 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 398
+[ DEBUG  ]  09:44:27 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 399
+[ DEBUG  ]  09:44:27 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 400
+[ DEBUG  ]  09:44:27 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 401
+[ DEBUG  ]  09:44:27 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 402
+[ DEBUG  ]  09:44:27 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 403
+[ DEBUG  ]  09:44:28 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 404
+[ DEBUG  ]  09:44:28 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 405
+[ DEBUG  ]  09:44:28 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 406
+[ DEBUG  ]  09:44:28 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 407
+[ DEBUG  ]  09:44:28 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 408
+[ DEBUG  ]  09:44:28 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 409
+[ DEBUG  ]  09:44:28 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 410
+[ DEBUG  ]  09:44:28 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 411
+[ DEBUG  ]  09:44:29 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 412
+[ DEBUG  ]  09:44:29 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 413
+[ DEBUG  ]  09:44:29 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 414
+[ DEBUG  ]  09:44:29 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
+[ NORMAL ]   ##   Simulation at step: 415
+[ DEBUG  ]  09:44:29 1 massim.framework.ObjectDumperObserver.notifySimulationState:57
