@@ -4,10 +4,15 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
-*.war
-*.ear
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 bin/
+
+ServerFolder/massim-2016-1.0/massim/scripts/backup/
+ServerFolder/massim-2016-1.0/massim/scripts/City2015_AB_2015-tournament-sim1of3/
+ServerFolder/massim-2016-1.0/massim/scripts/City2015_AB_2015-tournament-sim2of3/
+ServerFolder/massim-2016-1.0/massim/scripts/City2015_AB_2015-tournament-sim3of3/
+ServerFolder/massim-2016-1.0/massim/scripts/xmls/
+ServerFolder/massim-2016-1.0/massim/scripts/cache/
+
