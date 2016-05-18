@@ -4,11 +4,13 @@
 
 /* Initial goals */
 
-!start.
+explore.
 
 /* Plans */
 
-+!start : true <- .print("hello world.").
++explore : true <- jia.tempShop(IDSHOP);
+			goTo(IDSHOP);
+			-+explore.
 
 { include("$jacamoJar/templates/common-cartago.asl") }
 { include("$jacamoJar/templates/common-moise.asl") }

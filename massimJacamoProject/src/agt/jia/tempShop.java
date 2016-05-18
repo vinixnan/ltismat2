@@ -8,15 +8,14 @@ import jason.*;
 import jason.asSemantics.*;
 import jason.asSyntax.*;
 
-public class tempReturnShop extends DefaultInternalAction {
+public class tempShop extends DefaultInternalAction {
 
 	@Override
     public Object execute(TransitionSystem ts, Unifier un, Term[] terms) throws Exception {
         
-        Random rdn=new Random();
-        int numShop=rdn.nextInt(3);
+		Random rnd = new Random();
+        int numShop=rnd.nextInt(2)+1;
         String idShop="shop"+numShop;
-        ts.getAg().getLogger().info(idShop);
-        return un.unifies(terms[0],  new StringTermImpl(idShop));
+        return un.unifies(new StringTermImpl(idShop), terms[terms.length-1]);
 	}
 }

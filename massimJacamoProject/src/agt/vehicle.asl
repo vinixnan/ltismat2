@@ -5,7 +5,7 @@
 /* Initial goals */
 
 start.
-explore.
+
 
 /* Plans */
 
@@ -13,9 +13,7 @@ explore.
 			goTo(LAT,LON);
 			-+start.
 
-+explore : true <- jia.tempReturnShop(id);
-			goTo(id);
-			-+explore.
+
 
 { include("$jacamoJar/templates/common-cartago.asl") }
 { include("$jacamoJar/templates/common-moise.asl") }
