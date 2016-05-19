@@ -77,9 +77,11 @@ public class CityAgentInterface {
 		new Thread(new Scheduler(this)).start();
 
 	}
-	
+	 
+	 
 	void step(){
-		interpreter.step();		
+		interpreter.step();
+		//GlobalPercepts.debug();
 	}
 	
 	
@@ -115,7 +117,7 @@ public class CityAgentInterface {
 		public void run() {
 			while(true){
 				try {
-					Thread.sleep(600);
+					Thread.sleep(300);
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();

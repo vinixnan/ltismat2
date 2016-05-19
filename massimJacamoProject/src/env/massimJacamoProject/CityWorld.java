@@ -19,7 +19,7 @@ public class CityWorld extends Artifact {
 
 	//Object with a Actual implementation of a connecting agent
 	private static CityAgentInterface cityAgentInterface;
-
+	private static GlobalPercepts globalPercepts;
 
 	private Action scheduledAction=null;
 	private String agentID;
@@ -31,16 +31,16 @@ public class CityWorld extends Artifact {
 		/*
 		 * Perceptions		 
 		 */
-		defineObsProperty("charge");
-		defineObsProperty("load");
-		defineObsProperty("lastAction");
-		defineObsProperty("lastActionParam");
-		defineObsProperty("lastActionResult");
-		defineObsProperty("lat");
-		defineObsProperty("lon");
-		defineObsProperty("inFacility");
-		defineObsProperty("fPosition");
-		defineObsProperty("routeLength");
+		defineObsProperty("charge",0d);
+		defineObsProperty("load",0d);
+		defineObsProperty("lastAction","");
+		defineObsProperty("lastActionParam","");
+		defineObsProperty("lastActionResult","");
+		defineObsProperty("lat",0d);
+		defineObsProperty("lon",0d);
+		defineObsProperty("inFacility","");
+		defineObsProperty("fPosition",-1);
+		defineObsProperty("routeLength",0);
 
 
 		//		System.out.println("OK City world\n");
@@ -51,10 +51,11 @@ public class CityWorld extends Artifact {
 			//Connect to the server
 			cityAgentInterface.connect();
 		}
-
+		globalPercepts = GlobalPercepts.getInstance();
 		//These two commands MUST be used after connection.
 		CityAgent ag = CityAgent.getAgent(agentID);
 		ag.registerArtifact(this);
+		
 
 	}
 
@@ -63,62 +64,102 @@ public class CityWorld extends Artifact {
 	 * @param percept percept to be processed
 	 */
 	public void handlePercept(Percept percept) {
+		//System.out.println("Percept: "+percept.getName());
 		//Agent individual attributes
-		if (percept.getName().equals("self")){
-			LinkedList<Parameter> param = percept.getParameters();
-			processAgentPercepts(param);
-		}
 
+		
+		boolean agentPercep = processAgentPercepts(percept);
+		//If it is not a perception particular to the agent, it is a global perception
+		if(!agentPercep){
+			boolean globalPercep = globalPercepts.processGlobalPercept(percept);
+			if(!globalPercep){
+				System.out.println(percept.toString());
+			}
+		}
+		
 	}
 
 	/**
 	 * Updates all perceptions related to the current agent
 	 * @param param parameters
 	 */
-	private void processAgentPercepts(LinkedList<Parameter> param) {
+	private boolean processAgentPercepts(Percept param) {
 		//Process all parameters
-		for(int i=0;i<param.size();i++){
-			Parameter p = param.get(i);
-			System.out.println(p+"   "+Double.parseDouble(p.toString()));
+		//for(int i=0;i<param.size();i++){
 
-			if(p.equals("charge")){
-				updateObsProperty("charge", 
-						Double.parseDouble(p.toString()));
-				continue;
-			}
-
-			if(p.equals("load")){
-				updateObsProperty("load", 
-						Double.parseDouble(p.toString()));
-				continue;
-			}
-
-			if(p.equals("lastAction")){
-				updateObsProperty("lastAction", 
-						p.toString());
-				continue;
-			}
-
-			if(p.equals("lastActionParam")){
-				updateObsProperty("lastActionParam", 
-						p.toString());
-				continue;
-			}
-			
-			if(p.equals("lastActionResult")){
-				updateObsProperty("lastActionParam", 
-						p.toString());
-				continue;
-			}
-		/*case "lastActionParam": break;
-		case "lastActionResult": break;
-		case "lat": break;
-		case "lon": break;
-		case "inFacility": break;
-		case "fPosition": break;
-		case "routeLength": break;*/
-
+		
+		//System.out.println("Param: "+param.toString());
+		
+		if(param.getName().equals("charge")){
+			updateObsProperty("charge", 
+					Double.parseDouble(param.getParameters().get(0).toString()));
+			return true;
 		}
+
+		if(param.getName().equals("load")){
+			updateObsProperty("load", 
+					Double.parseDouble(param.getParameters().get(0).toString()));
+			return true;
+		}
+
+		if(param.getName().equals("lastAction")){
+			updateObsProperty("lastAction", 
+					param.getParameters().get(0).toString());
+			//System.out.println(param.getParameters().get(0).toString());
+			return true;
+		}
+
+		if(param.getName().equals("lastActionParam")){
+			updateObsProperty("lastActionParam", 
+					param.getParameters().get(0).toString());
+			return true;
+		}
+
+		if(param.getName().equals("lastActionResult")){
+			updateObsProperty("lastActionResult", 
+					param.getParameters().get(0).toString());
+			return true;
+		}
+
+		if(param.getName().equals("lat")){
+			updateObsProperty("lat", 
+					Double.parseDouble(param.getParameters().get(0).toString()));
+			//System.out.println("Found LAT:  "+Double.parseDouble(param.getParameters().get(0).toString()));
+			return true;
+		}
+		
+		if(param.getName().equals("lon")){
+			updateObsProperty("lon", 
+					Double.parseDouble(param.getParameters().get(0).toString()));
+			//System.out.println("Found LON:  "+Double.parseDouble(param.getParameters().get(0).toString()));
+			return true;
+		}
+
+		if(param.getName().equals("inFacility")){
+			updateObsProperty("inFacility", 
+					param.getParameters().get(0).toString());
+			return true;
+		}
+
+		if(param.getName().equals("fPosition")){
+			updateObsProperty("fPosition", 
+					Integer.parseInt(param.getParameters().get(0).toString()));
+			return true;
+		}
+
+		if(param.getName().equals("routeLength")){
+			updateObsProperty("routeLength", 
+					Integer.parseInt(param.getParameters().get(0).toString()));
+			return true;
+			//}
+		}
+		
+		//The route perception is ignored
+		if(param.getName().equals("route")){
+			return true;
+		}
+		//No agent perception was found
+		return false;
 	}
 
 	/*
@@ -396,7 +437,25 @@ public class CityWorld extends Artifact {
 	}
 
 
+	/**
+	 * Print debug information
+	 */
+	public void debug(){
+		System.out.println("Debug Agent Information:");
+		System.out.println("------------------------");
+		System.out.println("Charge:             "+getObsProperty("charge"));
+		System.out.println("Load:               "+getObsProperty("load"));
+		System.out.println("LastAction:         "+getObsProperty("lastAction"));
+		System.out.println("LastActionParam:    "+getObsProperty("lastActionParam"));
+		System.out.println("LastActionResult:   "+getObsProperty("lastActionResult"));
+		System.out.println("Lat:                "+getObsProperty("lat"));
+		System.out.println("Lon:                "+getObsProperty("lon"));
+		System.out.println("InFacility:         "+getObsProperty("inFacility"));
+		System.out.println("fPosition:          "+getObsProperty("fPosition"));
+		System.out.println("routeLength:        "+getObsProperty("routeLength"));
+		System.out.println("------------------------");
 
+	}
 
 
 }

@@ -57,6 +57,7 @@ public class CityAgent extends Agent {
 			processAction = true;
 		}else{
 			this.artifact.handlePercept(percep);
+			
 		}
 		
 	}
@@ -67,13 +68,14 @@ public class CityAgent extends Agent {
 		while(!processAction){			
 			try {
 				//System.out.println("\n"+this.getAllBeliefs(getName())+"\n");
-				Thread.sleep(20);
+				Thread.sleep(100);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 		}
 		Action schedule = artifact.getScheduledAction();
+		//artifact.debug();
 		if(schedule==null){
 			return CityWorld.skipAction(this.getName());
 		}
@@ -82,5 +84,6 @@ public class CityAgent extends Agent {
 		return schedule;
 		//return CityUtil.action("goto","lat="+51.4847+" lon="+(-0.0454));
 	}
+	
 
 }

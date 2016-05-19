@@ -6,14 +6,15 @@
 
 start.
 
-
 /* Plans */
 
 +start : true <- jia.randomCoord(LAT,LON);
 			goTo(LAT,LON);
 			-+start.
-
-
+			
++start : lat(A) & lon(B) <- .print("Latitude: " , A , " Long:" , B);
+			-lat(A);
+			-lon(B).
 
 { include("$jacamoJar/templates/common-cartago.asl") }
 { include("$jacamoJar/templates/common-moise.asl") }

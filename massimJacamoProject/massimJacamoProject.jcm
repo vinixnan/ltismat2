@@ -10,13 +10,11 @@
 
 mas massimJacamoProject {
 
-	//organisation o1 : company.xml {}
-	
-	//agent leader
+    //agent leader
     agent vehicle1 : vehicle.asl { 
     	focus: city.a1view
     }
-    agent vehicle2 : vehicle.asl { 
+     agent vehicle2 : vehicle.asl { 
     	focus: city.a2view
     }
     agent vehicle3 : vehicle.asl { 
