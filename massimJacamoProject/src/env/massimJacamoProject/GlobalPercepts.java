@@ -14,6 +14,7 @@ import java.util.regex.Pattern;
 
 import eis.iilang.Parameter;
 import eis.iilang.Percept;
+import massimJacamoProject.GlobalPercepts.ChargingStation;
 
 /**
  * Stores the percepts that are the same for all agents
@@ -846,6 +847,10 @@ bid 7. item name 8. amount
 			this.queueSize = queueSize;
 
 		}
+
+		public String getID() {
+			return this.id;
+		}
 	}
 	/**
 	 * Class to score data about a dump station
@@ -1066,6 +1071,29 @@ bid 7. item name 8. amount
 		System.out.println("Team:          "+team);
 		System.out.println("Deadline:      "+deadline);
 		System.out.println("-----------------------");
+	}
+
+
+	/**
+	 * Returns the nearest charging station in relation to a given point
+	 * @param lat latitude
+	 * @param lon longitude
+	 * @return the charging station
+	 */
+	public static ChargingStation getNearestChargingStation(double lat, double lon) {
+		//Find the closest charging station
+		double distance = Double.MAX_VALUE;
+		ChargingStation closestChSt = null;
+		//iterates over all charging stations
+		for(ChargingStation chargingSt : chargingStations.values()){
+			double distCurrent =  DistanceCalculator.distance(lat, lon, chargingSt.lat, chargingSt.lon);
+			if(distCurrent<distance){
+				closestChSt = chargingSt;
+				distance = distCurrent;
+			}
+		}
+		
+		return closestChSt;
 	}
 
 }
