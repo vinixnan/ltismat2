@@ -6,6 +6,7 @@ import java.util.LinkedList;
 
 import cartago.Artifact;
 import cartago.OPERATION;
+import cartago.OpFeedbackParam;
 import eis.iilang.Action;
 import eis.iilang.Parameter;
 import eis.iilang.Percept;
@@ -456,7 +457,32 @@ public class CityWorld extends Artifact {
 		System.out.println("------------------------");
 
 	}
+	
+	@OPERATION
+	void tcharge(OpFeedbackParam ret){
+		int ch=getObsProperty("charge").intValue();
+		ret.set(ch);
+	}
 
+	@OPERATION
+	void tinfacility(OpFeedbackParam ret){
+		String ch=getObsProperty("inFacility").stringValue();
+		if(ch.equals(""))
+			ch="none";
+		ret.set(ch);
+	}
+	
+	@OPERATION
+	void tlastaction(OpFeedbackParam ret){
+		String ch=getObsProperty("lastAction").stringValue();
+		ret.set(ch);
+	}
+	
+	@OPERATION
+	void tlastactionresult(OpFeedbackParam ret){
+		String ch=getObsProperty("lastActionResult").stringValue();
+		ret.set(ch);
+	}
 
 }
 

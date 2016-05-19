@@ -15,7 +15,7 @@ public class tempShop extends DefaultInternalAction {
 	public static Integer[] lastVisited=null;
 	@Override
     public Object execute(TransitionSystem ts, Unifier un, Term[] terms) throws Exception {
-		int qtdMaxAllPlaces=3;
+		int qtdMaxAllPlaces=2;
 		if(tempShop.lastVisited==null){
 			tempShop.lastVisited=new Integer[2];
 			Arrays.fill(tempShop.lastVisited, 0);

@@ -1,29 +1,42 @@
 // Agent explorer in project massimJacamoProject
 
 /* Initial beliefs and rules */
+!explore_goal.
 
 /* Initial goals */
 
-explore.
 
-+inFacility(V)
-  <- println("observed new value: ",V).
-  
-+lastAction(V)
-  <- println("observed new value: ",V).
-  
-+lastActionResult(V)
-  <- println("observed new value: ",V).
 
-/* Plans */
-//se estiver em facility, vai pra outra inFacility
-//se nao tiver plano atual vai pra facility  lastAction lastActionResult
-//se estiver no meio do caminho nao faz nada continue_a()
-//se estiver em qualquer lugar com pouca energia, ir carregar charge
-//moise working
-+explore : true <- jia.tempShop(IDSHOP);
-			goTo(IDSHOP);
-			-+explore.
++!explore_goal
+	<-	.print("Starting explore goal");
+	!explore.
+
++!explore : true <- 
+			tcharge(A);
+			tinfacility(F);
+			tlastaction(L); 
+			tlastactionresult(R);
+			!goexplore(F,L,R);
+			//!gorecharge(A); 
+			!!explore.	
+			
++!goexplore(F, L, R) : F\=="none" | L\=="goto" <- jia.tempShop(IDSHOP); goTo(IDSHOP).
++!goexplore(F, L, R) :  L=="goto"  <- continue_a.
+//+!gorecharge(A) :  true <- .print("").
+//+!gorecharge(A) :  A < 5000 <- .print("charge ", A).
+
+
+//+!explore : tinfacility(FAC) & FAC="none"  <- jia.tempShop(IDSHOP);
+//		goTo(IDSHOP);
+//			!!explore.
+			
+
+//+!explore : tlastaction(A)="skip" <- jia.tempShop(IDSHOP);
+	//		goTo(IDSHOP);
+		//	!!explore.
+
+
+
 
 { include("$jacamoJar/templates/common-cartago.asl") }
 { include("$jacamoJar/templates/common-moise.asl") }
