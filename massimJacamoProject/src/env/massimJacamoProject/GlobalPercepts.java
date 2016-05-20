@@ -325,7 +325,7 @@ public class GlobalPercepts {
 			
 			List<String> toolNames = new ArrayList<String>();
 			splitToolNames(toolList,toolNames);
-			
+			//System.out.println("ID "+id);
 			Role role = new Role(id, speed, capacity, battery,toolNames);
 			roles.put(id, role);
 		}
@@ -1054,6 +1054,22 @@ bid 7. item name 8. amount
 			this.batteryCapacity = battery;
 			this.tools = toolNames;
 		}
+
+		public String getId() {
+			return id;
+		}
+
+		public double getSpeed() {
+			return speed;
+		}
+
+		public int getLoadCapacity() {
+			return loadCapacity;
+		}
+
+		public double getBatteryCapacity() {
+			return batteryCapacity;
+		}
 	}
 
 	/**
@@ -1198,5 +1214,15 @@ bid 7. item name 8. amount
 		}
 		
 		return closestChSt;
+	}
+	
+	/**
+	 * Returns the agent role or null
+	 * @param agentName agent name
+	 * @return the Role
+	 */
+	public static Role getRoleByAgentName(String agentName){
+		
+		return roles.get(agentName);
 	}
 }

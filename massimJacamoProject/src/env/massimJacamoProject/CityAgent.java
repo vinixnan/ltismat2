@@ -79,7 +79,7 @@ public class CityAgent extends Agent {
 		if(schedule==null){
 			return CityWorld.skipAction(this.getName());
 		}
-		
+		//System.out.println(this.getName());
 		artifact.clearSchedule();
 		return schedule;
 		//return CityUtil.action("goto","lat="+51.4847+" lon="+(-0.0454));
