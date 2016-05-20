@@ -16,12 +16,13 @@
 			tinfacility(F);
 			tlastaction(L); 
 			tlastactionresult(R);
-			!goexplore(F,L,R);
+			tgoingto(F, GT);
+			!goexplore(F,GT);
 			//!gorecharge(A); 
 			!!explore.	
 			
-+!goexplore(F, L, R) : F\=="none" | L\=="goto" <- jia.tempShop(IDSHOP); goTo(IDSHOP).
-+!goexplore(F, L, R) :  L=="goto"  <- continue_a.
++!goexplore(F, GT) : GT==F | GT=="none" <- tlat(LA); tlon(LO); jia.tempShop(LA, LO, IDSHOP); goTo(IDSHOP).
++!goexplore(F, GT) : GT\=="none"  <- goTo(GT).
 //+!gorecharge(A) :  true <- .print("").
 //+!gorecharge(A) :  A < 5000 <- .print("charge ", A).
 

@@ -2,13 +2,10 @@
 
 package massimJacamoProject;
 
-import java.util.LinkedList;
-
 import cartago.Artifact;
 import cartago.OPERATION;
 import cartago.OpFeedbackParam;
 import eis.iilang.Action;
-import eis.iilang.Parameter;
 import eis.iilang.Percept;
 import jason.stdlib.list;
 /**
@@ -24,7 +21,7 @@ public class CityWorld extends Artifact {
 
 	private Action scheduledAction=null;
 	private String agentID;
-
+	private String lastGoTo="none";
 
 	void init(String agentID) {
 		this.agentID = agentID;
@@ -42,7 +39,7 @@ public class CityWorld extends Artifact {
 		defineObsProperty("inFacility","");
 		defineObsProperty("fPosition",-1);
 		defineObsProperty("routeLength",0);
-
+		
 
 		//		System.out.println("OK City world\n");
 
@@ -191,6 +188,7 @@ public class CityWorld extends Artifact {
 		if(scheduledAction==null){
 			Action a = cityAgentInterface.goToAction(this.agentID,id);
 			scheduledAction = a;
+			this.lastGoTo=id;
 		}
 	}
 
@@ -460,7 +458,7 @@ public class CityWorld extends Artifact {
 	
 	@OPERATION
 	void tcharge(OpFeedbackParam ret){
-		int ch=getObsProperty("charge").intValue();
+		Double ch=getObsProperty("charge").doubleValue();
 		ret.set(ch);
 	}
 
@@ -481,6 +479,26 @@ public class CityWorld extends Artifact {
 	@OPERATION
 	void tlastactionresult(OpFeedbackParam ret){
 		String ch=getObsProperty("lastActionResult").stringValue();
+		ret.set(ch);
+	}
+	
+	@OPERATION
+	void tgoingto(String nowplace, OpFeedbackParam ret){
+		if(nowplace.equals(this.lastGoTo) || this.lastGoTo.equals("")){
+			this.lastGoTo="none";
+		}
+		ret.set(this.lastGoTo);
+	}
+	
+	@OPERATION
+	void tlat(OpFeedbackParam ret){
+		Double ch=getObsProperty("lat").doubleValue();
+		ret.set(ch);
+	}
+	
+	@OPERATION
+	void tlon(OpFeedbackParam ret){
+		Double ch=getObsProperty("lon").doubleValue();
 		ret.set(ch);
 	}
 

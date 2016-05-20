@@ -869,6 +869,10 @@ bid 7. item name 8. amount
 			this.lon = lon;
 			this.price = price;
 		}
+		
+		public String getID() {
+			return this.id;
+		}
 	}
 
 
@@ -956,6 +960,10 @@ bid 7. item name 8. amount
 			this.amount = amount;
 			this.restock = restock;
 		}
+		
+		public String getID() {
+			return this.id;
+		}
 
 	}
 	/**
@@ -999,6 +1007,10 @@ bid 7. item name 8. amount
 			this.amountDelivered = amountDelivered;
 			
 		}
+		
+		public String getID() {
+			return this.id;
+		}
 	}
 	/**
 	 * Information about Workshops
@@ -1016,6 +1028,10 @@ bid 7. item name 8. amount
 			this.lat = lat;
 			this.lon = lon;
 			this.price = price;
+		}
+		
+		public String getID() {
+			return this.id;
 		}
 	}
 	
@@ -1095,5 +1111,92 @@ bid 7. item name 8. amount
 		
 		return closestChSt;
 	}
-
+	
+	/**
+	 * Returns the nearest dumping station in relation to a given point
+	 * @param lat latitude
+	 * @param lon longitude
+	 * @return the dumping station
+	 */
+	public static DumpStation getNearestDumpStation(double lat, double lon) {
+		//Find the closest charging station
+		double distance = Double.MAX_VALUE;
+		DumpStation closestChSt = null;
+		//iterates over all charging stations
+		for(DumpStation chargingSt : dumpFacilities.values()){
+			double distCurrent =  DistanceCalculator.distance(lat, lon, chargingSt.lat, chargingSt.lon);
+			if(distCurrent<distance){
+				closestChSt = chargingSt;
+				distance = distCurrent;
+			}
+		}
+		
+		return closestChSt;
+	}
+	
+	/**
+	 * Returns the nearest Shop in relation to a given point
+	 * @param lat latitude
+	 * @param lon longitude
+	 * @return the Shop
+	 */
+	public static Shop getNearestShop(double lat, double lon) {
+		//Find the closest charging station
+		double distance = Double.MAX_VALUE;
+		Shop closestChSt = null;
+		//iterates over all charging stations
+		for(Shop chargingSt : shops.values()){
+			double distCurrent =  DistanceCalculator.distance(lat, lon, chargingSt.lat, chargingSt.lon);
+			if(distCurrent<distance){
+				closestChSt = chargingSt;
+				distance = distCurrent;
+			}
+		}
+		
+		return closestChSt;
+	}
+	
+	/**
+	 * Returns the nearest Storage in relation to a given point
+	 * @param lat latitude
+	 * @param lon longitude
+	 * @return the Storage
+	 */
+	public static Storage getNearestStorage(double lat, double lon) {
+		//Find the closest charging station
+		double distance = Double.MAX_VALUE;
+		Storage closestChSt = null;
+		//iterates over all charging stations
+		for(Storage chargingSt : storages.values()){
+			double distCurrent =  DistanceCalculator.distance(lat, lon, chargingSt.lat, chargingSt.lon);
+			if(distCurrent<distance){
+				closestChSt = chargingSt;
+				distance = distCurrent;
+			}
+		}
+		
+		return closestChSt;
+	}
+	
+	/**
+	 * Returns the nearest Workshop in relation to a given point
+	 * @param lat latitude
+	 * @param lon longitude
+	 * @return the Workshop
+	 */
+	public static Workshop getNearestWorkshop(double lat, double lon) {
+		//Find the closest charging station
+		double distance = Double.MAX_VALUE;
+		Workshop closestChSt = null;
+		//iterates over all charging stations
+		for(Workshop chargingSt : workshops.values()){
+			double distCurrent =  DistanceCalculator.distance(lat, lon, chargingSt.lat, chargingSt.lon);
+			if(distCurrent<distance){
+				closestChSt = chargingSt;
+				distance = distCurrent;
+			}
+		}
+		
+		return closestChSt;
+	}
 }
