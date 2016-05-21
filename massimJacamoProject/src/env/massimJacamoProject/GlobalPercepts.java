@@ -902,6 +902,12 @@ bid 7. item name 8. amount
 			this.lat = lat;
 			this.lon = lon;
 		}
+
+
+		public String getRole() {
+			// TODO Auto-generated method stub
+			return role;
+		}
 	}
 	/**
 	 * Stores product information
@@ -1222,7 +1228,7 @@ bid 7. item name 8. amount
 	 * @return the Role
 	 */
 	public static Role getRoleByAgentName(String agentName){
-		
-		return roles.get(agentName);
+		EntityRecord ent = entities.get(agentName);
+		return roles.get(ent.getRole());
 	}
 }
