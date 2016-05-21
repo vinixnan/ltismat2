@@ -502,5 +502,10 @@ public class CityWorld extends Artifact {
 		ret.set(ch);
 	}
 
+	@OPERATION
+	void tnogoingto(){
+		this.lastGoTo="none";
+	}
+	
 }
 
