@@ -152,6 +152,14 @@ public class CityWorld extends Artifact {
 			//}
 		}
 		
+		if(param.getName().equals("item")){
+			String itemName=param.getParameters().get(0).toString();
+			int quantity=Integer.parseInt(param.getParameters().get(1).toString());
+			GlobalPercepts.updateItemCarriedByAgent(agentID, itemName, quantity);
+			
+			return true;
+		}
+		
 		//The route perception is ignored
 		if(param.getName().equals("route")){
 			return true;
@@ -502,10 +510,5 @@ public class CityWorld extends Artifact {
 		ret.set(ch);
 	}
 
-	@OPERATION
-	void tnogoingto(){
-		this.lastGoTo="none";
-	}
-	
 }
 

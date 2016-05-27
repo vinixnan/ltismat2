@@ -71,6 +71,8 @@ public class GlobalPercepts {
 	
 	//Action deadline
 	static double deadline;
+	
+	static Hashtable<String, Hashtable<String,Integer>> itemsByAgent;
 
 	//Initializations
 	static{
@@ -87,6 +89,7 @@ public class GlobalPercepts {
 		workshops = new Hashtable<String,Workshop>();
 		roles = new Hashtable<String,Role>();
 		globalSingleton = new GlobalPercepts();
+		itemsByAgent = new Hashtable<String, Hashtable<String,Integer>>();
 	}
 	/**
 	 * This method must be used to get a instance of the Global Percept class
@@ -1229,14 +1232,41 @@ bid 7. item name 8. amount
 	 */
 	public static Role getRoleByAgentName(String agentName){
 		EntityRecord ent = entities.get(agentName);
-		if(ent!=null)
-			return roles.get(ent.getRole());
-		return null;
+		return roles.get(ent.getRole());
 	}
-
-	//TODO esta retornando null
-	public static String getTeam() {
-		return team;
+	/**
+	 * Updates the quantity of a given item
+	 * @param agent agent
+	 * @param item item
+	 * @param quantity quantity
+	 */
+	public static void updateItemCarriedByAgent(String agent, String item, Integer quantity){
+		Hashtable<String, Integer> itemReg ;
+		if(itemsByAgent.containsKey(agent)){
+			itemReg = itemsByAgent.get(agent);
+		}else{
+			itemReg = new Hashtable<String, Integer>();
+			itemsByAgent.put(agent, itemReg);			
+		}
+		
+		itemReg.put(item, quantity);
 	}
-
+	/**
+	 * Returns the amount of a given item that an agent is carrying
+	 * @param agent the agent
+	 * @param item the item
+	 * @return the quantity
+	 */
+	public static int getItemQuantityWithAgent(String agent, String item){
+		if(!itemsByAgent.containsKey(agent))
+			return 0;
+		
+		Hashtable<String, Integer> itemReg = itemsByAgent.get(agent);
+		
+		if(itemReg.containsKey(item)){
+			return itemReg.get(item);
+		}
+		
+		return 0;
+	}
 }
