@@ -1232,8 +1232,15 @@ bid 7. item name 8. amount
 	 */
 	public static Role getRoleByAgentName(String agentName){
 		EntityRecord ent = entities.get(agentName);
-		return roles.get(ent.getRole());
+		if(ent!=null)
+			return roles.get(ent.getRole());
+		return null;
 	}
+	
+	public static String getTeam() {
+		 return team;
+	}
+	
 	/**
 	 * Updates the quantity of a given item
 	 * @param agent agent

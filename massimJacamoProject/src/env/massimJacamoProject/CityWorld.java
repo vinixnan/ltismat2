@@ -509,6 +509,10 @@ public class CityWorld extends Artifact {
 		Double ch=getObsProperty("lon").doubleValue();
 		ret.set(ch);
 	}
-
+	
+	@OPERATION
+	void tnogoingto(){
+	 this.lastGoTo="none";
+	}
 }
 
