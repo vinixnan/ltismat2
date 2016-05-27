@@ -1,9 +1,19 @@
 // Agent sample_agent in project massimJacamoProject
 
 /* Initial beliefs and rules */
+lastActionPerformed("none").
+lastResultPerformed("none").
+facilityLocation("none").
+chargeBelief(0).
+placeGoingTo("none").
 
+
+updateBeliefs.
 /* Initial goals */
 
++updateBeliefs : true <- tcharge(A); tinfacility(F); tlastaction(L);  tlastactionresult(R);
+-+lastActionPerformed(L); -+lastResultPerformed(R); -+facilityLocation(F); -+chargeBelief(A);
+-+updateBeliefs.
 
 chargetrigger.
 

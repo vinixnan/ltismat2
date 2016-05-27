@@ -17,7 +17,7 @@ public class temporaryDelivery extends DefaultInternalAction {
     	//destino pode ser um veiculo
     	Random rdn=new Random();
     	int volume=rdn.nextInt(3)+1;
-    	String id="material"+rdn.nextInt(3);
+    	String id="item"+rdn.nextInt(3);
     	String deliveryPlace="";
     	switch(rdn.nextInt(2)+1){
     		case 1:
@@ -28,7 +28,7 @@ public class temporaryDelivery extends DefaultInternalAction {
         		break;
     	}
     	deliveryPlace="storage"+rdn.nextInt(1);//modelo1
-    	volume=3;//modelo1
+    	volume=1;//modelo1
     	
     	un.unifies(args[0],  new StringTermImpl(id));
     	un.unifies(args[1],  new NumberTermImpl(volume));
