@@ -1,33 +1,13 @@
-// Agent explorer in project massimJacamoProject
+{ include("vehicle_base.asl") }
 
 /* Initial beliefs and rules */
-!explore_goal.
+its_time_to_see_where_go :- facilityLocation(F) & chargeBelief(A) & placeGoingTo(GT) & (GT==F | GT=="none").
+its_time_to_go :- facilityLocation(F) & chargeBelief(A) & placeGoingTo(GT) & GT\=="none".
 
 /* Initial goals */
++!work <- !explore.
 
+/* Plans */
++!explore: its_time_to_see_where_go  <- tlat(LA); tlon(LO); jia.tempShop(LA, LO, IDSHOP); goTo(IDSHOP).
++!explore: its_time_to_go  <- goTo(GT).
 
-
-+!explore_goal
-	<-	.print("Starting explore goal");
-	!explore.
-
-+!explore : true <- 
-			tcharge(A);
-			tinfacility(F);
-			tlastaction(L); 
-			tlastactionresult(R);
-			tgoingto(F, GT);
-			!goexplore(F,GT,A);
-			!!explore.	
-			
-+!goexplore(F, GT,A) : GT==F | GT=="none" <- tlat(LA); tlon(LO); jia.tempShop(LA, LO, IDSHOP); goTo(IDSHOP).
-+!goexplore(F, GT,A) : GT\=="none"  <- goTo(GT).
-
-
-
-
-{ include("$jacamoJar/templates/common-cartago.asl") }
-{ include("$jacamoJar/templates/common-moise.asl") }
-
-// uncomment the include below to have a agent that always complies with its organization  
-//{ include("$jacamoJar/templates/org-obedient.asl") }

@@ -1,7 +1,6 @@
 // Agent distributor in project massimJacamoProject
 
 /* Initial beliefs and rules */
-
 /* Initial goals */
 
 !start.

@@ -36,23 +36,28 @@ public class tempShop extends DefaultInternalAction {
 			switch(tempShop.lastVisited[0]){
 				case 0:
 					ChargingStation cgst = GlobalPercepts.getNearestChargingStation(lat,lon);
-					idShop=cgst.getID();
+					if(cgst!=null)
+						idShop=cgst.getID();
 					break;
 				case 1:
 					DumpStation dmp=GlobalPercepts.getNearestDumpStation(lat, lon);
-					idShop=dmp.getID();
+					if(dmp!=null)
+						idShop=dmp.getID();
 					break;
 				case 2:
 					Shop shp=GlobalPercepts.getNearestShop(lat, lon);
-					idShop=shp.getID();
+					if(shp!=null)
+						idShop=shp.getID();
 					break;
 				case 3:
 					Storage stg=GlobalPercepts.getNearestStorage(lat, lon);
-					idShop=stg.getID();
+					if(stg!=null)
+						idShop=stg.getID();
 					break;
 				default:
 					Workshop wrks=GlobalPercepts.getNearestWorkshop(lat, lon);
-					idShop=wrks.getID();
+					if(wrks!=null)
+						idShop=wrks.getID();
 					break;
 			}
 			tempShop.lastVisited[0]++;
