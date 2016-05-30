@@ -236,6 +236,19 @@ public class CityWorld extends Artifact {
 			scheduledAction = a;
 		}
 	}
+	
+	/**
+	 * store action
+	 * @param item item to store
+	 * @param amount quantity to store
+	 */
+	@OPERATION
+	void store(String item,int amount){
+		if(scheduledAction==null){
+			Action a = cityAgentInterface.storeAction(this.agentID,item,amount);
+			scheduledAction = a;
+		}
+	}
 
 	/**
 	 * retrieve action
@@ -249,6 +262,7 @@ public class CityWorld extends Artifact {
 			scheduledAction = a;
 		}
 	}
+	
 	/**
 	 * retrieve_delivered action
 	 * @param item item id

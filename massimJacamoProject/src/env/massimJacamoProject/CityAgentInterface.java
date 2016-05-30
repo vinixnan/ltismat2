@@ -177,6 +177,17 @@ public class CityAgentInterface {
 		return action;
 	}
 	/**
+	 * Returns a store action
+	 * @param agentID agent executing the action
+	 * @param item item to store
+	 * @param amount quantity
+	 * @return
+	 */
+	public Action storeAction(String agentID, String item, int amount) {
+		Action action =  CityUtil.action("store","item="+item+" amount="+amount);
+		return action;
+	}
+	/**
 	 * Returns a retrieve action
 	 * @param agentID agent executing the action
 	 * @param item item to retrieve
