@@ -26,7 +26,7 @@ public class get_charging_decision extends DefaultInternalAction {
     	if(agRole!=null){
     		double percent=avaliableCharge/agRole.getBatteryCapacity();
     		if(lastAction.equals("charge")){
-    			if(resultLastAction.equals("complete")){
+    			if(agRole.getBatteryCapacity()==avaliableCharge ){
     				//estava carregando e terminou, trabalhar
     				answer=1;//!work;
     			}
