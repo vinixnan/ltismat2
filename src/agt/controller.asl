@@ -13,15 +13,15 @@ operation("none").
 destinyId("none").
 itemName("none").
 quantity(0).
-existingAuction(0). //0: does not exist, 1: exists
+existingAuction(0). //0: not checked, 1: checked, but no auction, 2: checked, new auction
 auctionJobId("none").
 maximumBid(0.0).
 chargeBelief(0).
 
 time_to_wait :- (vehicle2(V2) & V2 \== "available") | (chargeBelief(A) & A == 0).
-time_to_check_controller :- vehicle2(V2) & V2 == "available" & existingTask(ET) & ET == 0 & chargeBelief(A) & A > 0.
-time_to_check_auction :- existingTask(ET) & ET == 1 & chargeBelief(A) & A > 0.
-time_to_bid :- existingAuction(EA) & EA == 1 & existingTask(ET) & ET == 1.
+time_to_check_controller :- vehicle2(V2) & V2 == "available" & existingTask(ET) & ET == 0 & existingAuction(EA) & EA \== 2 & chargeBelief(A) & A > 0.
+time_to_check_auction :- existingAuction(EA) & EA == 0 & existingTask(ET) & ET == 1 & chargeBelief(A) & A > 0.
+time_to_bid :- existingAuction(EA) & EA == 2 & existingTask(ET) & ET == 0.
 time_to_delegate :- vehicle2(V2) & V2 == "available" & existingTask(ET) & ET == 2 & chargeBelief(A) & A > 0.
 
 /* Initial goals */
@@ -34,6 +34,9 @@ time_to_delegate :- vehicle2(V2) & V2 == "available" & existingTask(ET) & ET == 
 							?jobId(JI); -+jobId(JI); ?taskId(TI); -+taskId(TI);
 							?operation(O); -+operation(O); ?destinyId(DI); -+destinyId(DI);
 							?itemName(IN); -+itemName(IN); ?quantity(Q); -+quantity(Q);
+							?existingAuction(EA); -+existingAuction(EA);
+							?auctionJobId(AJ); -+auctionJobId(AJ);
+							?maximumBid(MB); -+maximumBid(MB);
 							tcharge(A); -+chargeBelief(A);
 -+updateAllBeliefs.
 
@@ -50,11 +53,11 @@ time_to_delegate :- vehicle2(V2) & V2 == "available" & existingTask(ET) & ET == 
 										-+destinyId(DestinyId);
 										-+itemName(ItemName);
 										-+quantity(Quantity);
-										.print("JobId: ", JobId).
+										-+existingAuction(0).//; .print("JobId: ", JobId).
 +!control : time_to_check_auction <- jia.getAuctionJob(AuctionJobId, MaximumBid, ExistingAuction);
 										-+auctionJobId(AuctionJobId); -+maximumBid(MaximumBid);
 										-+existingAuction(ExistingAuction);
-										.print("Existing Auction: ", ExistingAuction).
+										-+existingTask(0).//; .print("AuctionJobId: ", AuctionJobId).
 +!control : time_to_bid <- ?auctionJobId(AJ); ?maximumBid(MB); bid_for_job(AJ, MB);
 							.print("Bidding: ", AJ, MB);
 							-+existingAuction(0); -+existingTask(0).

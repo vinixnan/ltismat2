@@ -17,12 +17,14 @@ public class getAuctionJob extends DefaultInternalAction {
     public Object execute(TransitionSystem ts, Unifier un, Term[] args) throws Exception {
         // execute the internal action
     	
+    	/*
     	if (true)
     	{
     		un.unifies(args[0],  new StringTermImpl(""));
         	un.unifies(args[1],  new NumberTermImpl(45));
-        	return un.unifies(args[2],  new NumberTermImpl(0));
+        	return un.unifies(args[2],  new NumberTermImpl(1));
     	}
+    	*/
     	
     	ControlStructure.shops = GlobalPercepts.getShops();
     	
@@ -38,7 +40,7 @@ public class getAuctionJob extends DefaultInternalAction {
 	    	
 	    	//Check all jobs
 	    	while(enumJobKey.hasMoreElements() && auctionJobKey == "")
-	    	{
+	    	{	
 	    		JobStatus tempJobStatus = JobStatus.Try;
 	    		String jobKey = enumJobKey.nextElement();
 	    		
@@ -145,11 +147,16 @@ public class getAuctionJob extends DefaultInternalAction {
 	    	}
     	}
     	
-    	double maximumBid = ControlStructure.auctionJobs.get(auctionJobKey).MaximumBid();
-    	int existingAuction = 0;
+    	double maximumBid = 0;
+    	int existingAuction = 1;
     	if (auctionJobKey != "")
     	{
-    		existingAuction = 1;
+    		maximumBid = ControlStructure.auctionJobs.get(auctionJobKey).MaximumBid();
+    		existingAuction = 2;
+    	}
+    	else
+    	{
+    		auctionJobKey = "Auction Jobs size: " + ControlStructure.auctionJobs.size() + ", Shops size: " + ControlStructure.shops.size();
     	}
     	
     	un.unifies(args[0],  new StringTermImpl(auctionJobKey));
