@@ -781,6 +781,54 @@ bid 7. item name 8. amount
 
 		List<String> itemNames;
 		List<Integer> quantities;
+		
+		/**
+		 * Properties
+		 */
+		public boolean Auctioned()
+		{
+			return this.auctioned;
+		}
+		public String Id()
+		{
+			return this.id;
+		}
+		public String Storage()
+		{
+			return this.storage;
+		}
+		public int BeginStep()
+		{
+			return this.beginStep;
+		}
+		public int EndStep()
+		{
+			return this.endStep;
+		}
+		public double Fine()
+		{
+			return this.fine;
+		}
+		public double MaximumBid()
+		{
+			return this.maximumBid;
+		}
+		public double Reward()
+		{
+			return this.reward;
+		}
+		public List<Integer> DeliveredItems()
+		{
+			return this.deliveredItens;
+		}
+		public List<String> ItemNames()
+		{
+			return this.itemNames;
+		}
+		public List<Integer> Quantities()
+		{
+			return this.quantities;
+		}
 		/**
 		 * Constructor for auctioned jobs
 		 */
@@ -947,6 +995,37 @@ bid 7. item name 8. amount
 		List<Double> costs;
 		List<Integer> amount;
 		List<Double> restock;
+		/**
+		 * Properties
+		 */
+		public String Id()
+		{
+			return this.id;
+		}
+		public double Lat()
+		{
+			return this.lat;
+		}
+		public double Lon()
+		{
+			return this.lon;
+		}
+		public List<String> ItemNames()
+		{
+			return this.itemNames;
+		}
+		public List<Double> Costs()
+		{
+			return this.costs;
+		}
+		public List<Integer> Amount()
+		{
+			return this.amount;
+		}
+		public List<Double> Restock()
+		{
+			return this.restock;
+		}
 		/**
 		 * Creates a new shop with product information
 		 */
@@ -1275,5 +1354,40 @@ bid 7. item name 8. amount
 		}
 		
 		return 0;
+	}
+	/**
+	 * Returns all available auction jobs
+	 * @return auctionJobs
+	 */
+	public static Hashtable<String, Job> getAuctionJobs(){
+		return auctionJobs;
+	}
+	/**
+	 * Returns all available priced jobs
+	 * @return pricedJobs
+	 */
+	public static Hashtable<String, Job> getPricedJobs(){
+		return pricedJobs;
+	}
+	/**
+	 * Returns all available posted jobs
+	 * @return postedJobs
+	 */
+	public static Hashtable<String, String> getPostedJobs(){
+		return postedJobs;
+	}
+	/**
+	 * Returns all shops
+	 * @return shop
+	 */
+	public static Hashtable<String, Shop> getShops(){
+		return shops;
+	}
+	/**
+	 * Returns true if the simulation is inactive
+	 * @return bye
+	 */
+	public static boolean SimulationInactive(){
+		return bye;
 	}
 }
