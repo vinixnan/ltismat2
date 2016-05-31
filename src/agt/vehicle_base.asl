@@ -31,6 +31,7 @@ chargetrigger.
 /* Plans */
 +updateBeliefs : true <- tcharge(A); tinfacility(F); tlastaction(L);  tlastactionresult(R);
 -+lastActionPerformed(L); -+lastResultPerformed(R); -+facilityLocation(F); -+chargeBelief(A);
+?placeGoingTo(GT); -+placeGoingTo(GT);
 -+updateBeliefs.
 
 +chargetrigger : true  <-  !gocharge; -+chargetrigger.
