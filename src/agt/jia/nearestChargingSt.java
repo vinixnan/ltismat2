@@ -26,8 +26,11 @@ public class nearestChargingSt extends DefaultInternalAction {
         
     	double lat = ((NumberTermImpl) args[0]).solve();
     	double lon = ((NumberTermImpl) args[1]).solve();
-    	ChargingStation cgst = GlobalPercepts.getNearestChargingStation(lat,lon);
-    	
-    	return un.unifies(args[2], new StringTermImpl(cgst.getID()));
+    	String placeToGo="none";
+    	if(lat!=0 && lon!=0){
+    		ChargingStation cgst = GlobalPercepts.getNearestChargingStation(lat,lon);
+    		placeToGo=cgst.getID();
+    	}
+    	return un.unifies(args[2], new StringTermImpl(placeToGo));
     }
 }
