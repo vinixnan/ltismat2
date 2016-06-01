@@ -31,6 +31,7 @@ chargetrigger.
 /* Plans */
 +updateBeliefs : true <- tcharge(A); tinfacility(F); tlastaction(L);  tlastactionresult(R);
 -+lastActionPerformed(L); -+lastResultPerformed(R); -+facilityLocation(F); -+chargeBelief(A);
+?placeGoingTo(GT); -+placeGoingTo(GT);
 -+updateBeliefs.
 
 +chargetrigger : true  <-  !gocharge; -+chargetrigger.
@@ -45,9 +46,9 @@ chargetrigger.
 //if arrive in the charging station then charge 
 +!gocharge:  its_time_to_charge <- tnogoingto; charge.
 //method to keep going until arrive
-+!gocharge:  its_time_to_going <- goTo(GT).	
++!gocharge:  its_time_to_going <- ?placeGoingTo(GT); goTo(GT).	
 //if charge < 100 go to the nearest charging station		
-+!gocharge: its_time_to_find_a_charging_station <- tlat(LA); tlon(LO); jia.nearestChargingSt(LA, LO, IDSHOP); goTo(IDSHOP).
++!gocharge: its_time_to_find_a_charging_station <- tlat(LA); tlon(LO); jia.nearestChargingSt(LA, LO, IDSHOP); -+placeGoingTo(IDSHOP); goTo(IDSHOP).
 			
 { include("$jacamoJar/templates/common-cartago.asl") }
 { include("$jacamoJar/templates/common-moise.asl") }

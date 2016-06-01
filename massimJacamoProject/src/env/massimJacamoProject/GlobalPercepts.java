@@ -73,6 +73,8 @@ public class GlobalPercepts {
 	static double deadline;
 	
 	static Hashtable<String, Hashtable<String,Integer>> itemsByAgent;
+	
+	static ArrayList<String> visitRow;
 
 	//Initializations
 	static{
@@ -90,6 +92,7 @@ public class GlobalPercepts {
 		roles = new Hashtable<String,Role>();
 		globalSingleton = new GlobalPercepts();
 		itemsByAgent = new Hashtable<String, Hashtable<String,Integer>>();
+		visitRow=new ArrayList<String>();
 	}
 	/**
 	 * This method must be used to get a instance of the Global Percept class
@@ -211,6 +214,30 @@ public class GlobalPercepts {
 		return false;		
 	}
 	/**
+	  * Add a String to visitRow, used to control wich place explorers have to go
+	  * @param name of facility
+	  */
+	 private void addFacilityToGo(String nameFacility){
+	 	if(!visitRow.contains(nameFacility)){
+	 		visitRow.add(nameFacility);
+	 	}
+	 }
+	 
+	 /**
+	  * Returns the name of Facility to Go
+	  * @return name of Facility to Go
+	  */
+	 public static String getCurrentFacilityToGo(){
+	 	String toReturn="none";
+	 	if(visitRow.size() > 0){
+	 		toReturn=visitRow.get(0);
+	 		visitRow.remove(0);
+	 		visitRow.add(toReturn);
+	 	}
+	 	return toReturn;
+	 }
+	 
+	/**
 	 * Creates workshop stations
 	 * @param parameters Parameters: 1. name 2. latitude 3. longitude 4. price
 	 */
@@ -223,6 +250,7 @@ public class GlobalPercepts {
 			double price = Double.parseDouble(parameters.get(3).toString());
 			Workshop ws = new Workshop(id,lat,lon,price);
 			workshops.put(id, ws);
+			addFacilityToGo(id);
 		}
 		
 	}
@@ -255,7 +283,7 @@ public class GlobalPercepts {
 			
 			Storage storage = new Storage(id, lat, lon, price, totalCapacity, usedCapacity, itemNames, amountStored,amountDelivered);
 		    storages.put(id, storage);
-			
+		    addFacilityToGo(id);
 			
 		}
 		
@@ -302,6 +330,7 @@ public class GlobalPercepts {
 				shop = new Shop(id, lat, lon, itemNames);
 			}
 			shops.put(id, shop);
+			addFacilityToGo(id);
 		}
 		
 	}
@@ -428,7 +457,8 @@ Note: If the list is empty, the product cannot be assembled.
 	 * @param parameters  the job identifier
 	 */
 	private void updateTakenJob(LinkedList<Parameter> parameters) {
-		String id = parameters.getFirst().toString();
+		//String id = parameters.getFirst().toString();
+		String id = parameters.get(0).toString();
 
 		if(!takenJobs.containsKey(id)){
 			takenJobs.put(id, id);
@@ -493,6 +523,7 @@ Note: If the list is empty, the product cannot be assembled.
 
 			DumpStation dump = new DumpStation(id,lat,lon,price);
 			dumpFacilities.put(id, dump);
+			addFacilityToGo(id);
 		}	
 	}
 
@@ -522,6 +553,7 @@ Note: If the list is empty, the product cannot be assembled.
 
 				ChargingStation chargeS = new ChargingStation(id, lat, lon, chargeRate, price, slots);
 				chargingStations.put(id, chargeS);
+				addFacilityToGo(id);
 			}
 		}
 
@@ -781,6 +813,54 @@ bid 7. item name 8. amount
 
 		List<String> itemNames;
 		List<Integer> quantities;
+		
+		/**
+		 * Properties
+		 */
+		public boolean Auctioned()
+		{
+			return this.auctioned;
+		}
+		public String Id()
+		{
+			return this.id;
+		}
+		public String Storage()
+		{
+			return this.storage;
+		}
+		public int BeginStep()
+		{
+			return this.beginStep;
+		}
+		public int EndStep()
+		{
+			return this.endStep;
+		}
+		public double Fine()
+		{
+			return this.fine;
+		}
+		public double MaximumBid()
+		{
+			return this.maximumBid;
+		}
+		public double Reward()
+		{
+			return this.reward;
+		}
+		public List<Integer> DeliveredItems()
+		{
+			return this.deliveredItens;
+		}
+		public List<String> ItemNames()
+		{
+			return this.itemNames;
+		}
+		public List<Integer> Quantities()
+		{
+			return this.quantities;
+		}
 		/**
 		 * Constructor for auctioned jobs
 		 */
@@ -947,6 +1027,37 @@ bid 7. item name 8. amount
 		List<Double> costs;
 		List<Integer> amount;
 		List<Double> restock;
+		/**
+		 * Properties
+		 */
+		public String Id()
+		{
+			return this.id;
+		}
+		public double Lat()
+		{
+			return this.lat;
+		}
+		public double Lon()
+		{
+			return this.lon;
+		}
+		public List<String> ItemNames()
+		{
+			return this.itemNames;
+		}
+		public List<Double> Costs()
+		{
+			return this.costs;
+		}
+		public List<Integer> Amount()
+		{
+			return this.amount;
+		}
+		public List<Double> Restock()
+		{
+			return this.restock;
+		}
 		/**
 		 * Creates a new shop with product information
 		 */
@@ -1275,5 +1386,47 @@ bid 7. item name 8. amount
 		}
 		
 		return 0;
+	}
+	/**
+	 * Returns all available auction jobs
+	 * @return auctionJobs
+	 */
+	public static Hashtable<String, Job> getAuctionJobs(){
+		return auctionJobs;
+	}
+	/**
+	 * Returns all available priced jobs
+	 * @return pricedJobs
+	 */
+	public static Hashtable<String, Job> getPricedJobs(){
+		return pricedJobs;
+	}
+	/**
+	 * Returns all available posted jobs
+	 * @return postedJobs
+	 */
+	public static Hashtable<String, String> getPostedJobs(){
+		return postedJobs;
+	}
+	/**
+	 * Returns all available taken jobs
+	 * @return takenJobs
+	 */
+	public static Hashtable<String, String> getTakenJobs(){
+		return takenJobs;
+	}
+	/**
+	 * Returns all shops
+	 * @return shop
+	 */
+	public static Hashtable<String, Shop> getShops(){
+		return shops;
+	}
+	/**
+	 * Returns true if the simulation is inactive
+	 * @return bye
+	 */
+	public static boolean SimulationInactive(){
+		return bye;
 	}
 }

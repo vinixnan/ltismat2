@@ -26,7 +26,7 @@ public class get_charging_decision extends DefaultInternalAction {
     	if(agRole!=null){
     		double percent=avaliableCharge/agRole.getBatteryCapacity();
     		if(lastAction.equals("charge")){
-    			if(resultLastAction.equals("complete")){
+    			if(agRole.getBatteryCapacity()==avaliableCharge){
     				//estava carregando e terminou, trabalhar
     				answer=1;//!work;
     			}
@@ -35,7 +35,7 @@ public class get_charging_decision extends DefaultInternalAction {
     				answer=2;//charge;
     			}
     		}
-    		else if(percent <= 0.2){
+    		else if(percent <= 0.5){
     			//não esta carregando e o percentual de carga está baixo
     			if(facilityName.contains("charging")){
     				//necessita de carga e esta na estação

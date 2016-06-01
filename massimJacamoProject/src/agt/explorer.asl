@@ -8,6 +8,6 @@ its_time_to_go :- facilityLocation(F) & chargeBelief(A) & placeGoingTo(GT) & GT\
 +!work <- !explore.
 
 /* Plans */
-+!explore: its_time_to_see_where_go  <- tlat(LA); tlon(LO); jia.tempShop(LA, LO, IDSHOP); goTo(IDSHOP).
-+!explore: its_time_to_go  <- goTo(GT).
++!explore: its_time_to_see_where_go  <- tlat(LA); tlon(LO); jia.tempShop(LA, LO, IDSHOP); -+placeGoingTo(IDSHOP); goTo(IDSHOP).
++!explore: its_time_to_go  <- ?placeGoingTo(GT); goTo(GT).
 
