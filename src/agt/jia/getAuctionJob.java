@@ -18,18 +18,13 @@ public class getAuctionJob extends DefaultInternalAction {
         // execute the internal action
     	
     	/*
-    	if (true)
-    	{
-    		un.unifies(args[0],  new StringTermImpl(""));
-        	un.unifies(args[1],  new NumberTermImpl(45));
-        	return un.unifies(args[2],  new NumberTermImpl(1));
-    	}
-    	*/
+    	 * Internal action to check the auction jobs, identify where to buy each item,
+    	 * create tasks from each auction job and return an auction job to bid
+    	 */
     	
     	ControlStructure.shops = GlobalPercepts.getShops();
     	
     	ControlStructure.auctionJobs = GlobalPercepts.getAuctionJobs();
-    	//ControlStructure.pricedJobs = GlobalPercepts.getPricedJobs();
     	
     	//Auction job chosen for bid
     	String auctionJobKey = "";
@@ -111,17 +106,23 @@ public class getAuctionJob extends DefaultInternalAction {
 			    	    		//Check if shop contains desired item
 			    	    		if (shopItems.contains(jobItems.get(i)))
 			    	    		{
+			    	    			/*
 			    	    			int index = shopItems.indexOf(jobItems.get(i));
 			    	    			//Check if shop contains desired quantity
-			    	    			if (shopAmount.get(index) >= jobQuantities.get(i))
+			    	    			if (shopAmount.size() > index)
 			    	    			{
-			    	    				//Check if better price
-			    	    				if (shopId == null || shopCosts.get(index) < bestPrice)
-			    	    				{
-			    	    					shopId = shop.Id();
-			        	    				bestPrice = shopCosts.get(index);
-			    	    				}
+				    	    			if (shopAmount.get(index) >= jobQuantities.get(i))
+				    	    			{
+				    	    				//Check if better price
+				    	    				if (shopId == null || shopCosts.get(index) < bestPrice)
+				    	    				{
+				    	    					shopId = shop.Id();
+				        	    				bestPrice = shopCosts.get(index);
+				    	    				}
+				    	    			}
 			    	    			}
+			    	    			*/
+			    	    			shopId = shop.Id();
 			    	    		}
 			    			}
 			    			
@@ -147,16 +148,13 @@ public class getAuctionJob extends DefaultInternalAction {
 	    	}
     	}
     	
+    	//Return an auction job to bid
     	double maximumBid = 0;
     	int existingAuction = 1;
     	if (auctionJobKey != "")
     	{
     		maximumBid = ControlStructure.auctionJobs.get(auctionJobKey).MaximumBid();
     		existingAuction = 2;
-    	}
-    	else
-    	{
-    		auctionJobKey = "Auction Jobs size: " + ControlStructure.auctionJobs.size() + ", Shops size: " + ControlStructure.shops.size();
     	}
     	
     	un.unifies(args[0],  new StringTermImpl(auctionJobKey));

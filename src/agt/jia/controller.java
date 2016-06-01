@@ -9,78 +9,18 @@ import java.util.*;
 import massimJacamoProject.GlobalPercepts;
 
 public class controller extends DefaultInternalAction {
-
-	/*public enum JobStatus { Evaluation, Accepted, Execution, Completed, Cancelled }
-	public enum TaskStatus { Evaluation, Accepted, Assigned, Completed, Cancelled }
-	public enum JobType { Auction, Priced }
-	
-	public static Hashtable<String, GlobalPercepts.Job> auctionJobs;
-	public static Hashtable<String, GlobalPercepts.Job> pricedJobs;
-	public static Hashtable<String, GlobalPercepts.Shop> shops;
-	public static Hashtable<String, JobStatus> jobStatus;
-	public static Hashtable<Integer, Task> tasks;
-	public static Hashtable<String, List<Integer>> jobTasks;
-	public static Hashtable<String, JobType> jobType;
-	
-	static
-	{
-		auctionJobs = new Hashtable<String, GlobalPercepts.Job>();
-		pricedJobs = new Hashtable<String, GlobalPercepts.Job>();
-		shops = new Hashtable<String, GlobalPercepts.Shop>();
-		jobStatus = new Hashtable<String, JobStatus>();
-		tasks = new Hashtable<Integer, Task>();
-		jobTasks = new Hashtable<String, List<Integer>>();
-		jobType = new Hashtable<String, JobType>();
-	}
-	
-	public class Task
-	{
-		public int id;
-		public String operation;
-		public String destination;
-		public String item;
-		public int quantity;
-		public String responsible;
-		public TaskStatus taskStatus;
-		
-		public Task(int id, 
-					String operation, 
-					String destination, 
-					String item, 
-					int quantity,
-					String responsible,
-					TaskStatus taskStatus)
-		{
-			this.id = id;
-			this.operation = operation;
-			this.destination = destination;
-			this.item = item;
-			this.quantity = quantity;
-			this.responsible = responsible;
-			this.taskStatus = taskStatus;
-		}
-	}*/
 	
     @Override
     public Object execute(TransitionSystem ts, Unifier un, Term[] args) throws Exception {
         // execute the internal action
     	
     	/*
-    	if (true)
-    	{
-    		un.unifies(args[0],  new StringTermImpl(""));
-        	un.unifies(args[1],  new NumberTermImpl(-1));
-        	un.unifies(args[2],  new StringTermImpl(""));
-        	un.unifies(args[3],  new StringTermImpl(""));
-        	un.unifies(args[4],  new StringTermImpl(""));
-        	un.unifies(args[5],  new NumberTermImpl(0));
-        	return un.unifies(args[6],  new NumberTermImpl(0));
-    	}
-    	*/
+    	 * Internal action to check the priced jobs, identify where to buy each item,
+    	 * create tasks from each priced job and return a task to be assigned
+    	 */
     	
     	ControlStructure.shops = GlobalPercepts.getShops();
     	
-    	ControlStructure.auctionJobs = GlobalPercepts.getAuctionJobs();
     	ControlStructure.pricedJobs = GlobalPercepts.getPricedJobs();
     	
     	if (ControlStructure.pricedJobs.size() != 0 && ControlStructure.shops.size() != 0)
@@ -192,9 +132,6 @@ public class controller extends DefaultInternalAction {
 	    	}
     	}
     	
-    	/**************************************************************/
-    	/**************************************************************/
-    	/**************************************************************/
     	//Return a task to be assigned
     	String jobId = null;
     	int taskId = -1;
@@ -237,7 +174,7 @@ public class controller extends DefaultInternalAction {
     	}
     	else
     	{
-    		jobId = "Priced Jobs size: " + ControlStructure.pricedJobs.size() + ", Shops size: " + ControlStructure.shops.size();
+    		jobId = "";
     	}
     	
     	un.unifies(args[0],  new StringTermImpl(jobId));
@@ -247,13 +184,5 @@ public class controller extends DefaultInternalAction {
     	un.unifies(args[4],  new StringTermImpl(item));
     	un.unifies(args[5],  new NumberTermImpl(quantity));
     	return un.unifies(args[6],  new NumberTermImpl(existingTask));
-    	
-    	/*un.unifies(args[0],  new StringTermImpl("1A"));
-    	un.unifies(args[1],  new NumberTermImpl(1));
-    	un.unifies(args[2],  new StringTermImpl("buy"));
-    	un.unifies(args[3],  new StringTermImpl("shop1"));
-    	un.unifies(args[4],  new StringTermImpl("item1"));
-    	un.unifies(args[5],  new NumberTermImpl(1));
-    	return un.unifies(args[6],  new NumberTermImpl(1));*/
     }
 }
