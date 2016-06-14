@@ -24,9 +24,17 @@ maximumBid(0.0).
 chargeBelief(0).
 
 time_to_wait :- (vehicle2(V2) & V2 \== "available") | (chargeBelief(A) & A == 0).
+
+/* Priced Jobs */
+time_to_check_priced_jobs :- vehicle2(V2) & V2 == "available" & existingTask(ET) & ET == 0 & chargeBelief(A) & A > 0.
+/* Priced Jobs */
+
+/*
 time_to_check_tasks :- vehicle2(V2) & V2 == "available" & existingTask(ET) & ET == 0 & existingAuction(EA) & EA \== 2 & chargeBelief(A) & A > 0.
 time_to_check_auction :- existingAuction(EA) & EA == 0 & existingTask(ET) & ET == 1 & chargeBelief(A) & A > 0.
 time_to_bid :- existingAuction(EA) & EA == 2 & existingTask(ET) & ET == 0.
+*/
+
 time_to_delegate :- vehicle2(V2) & V2 == "available" & existingTask(ET) & ET == 2 & chargeBelief(A) & A > 0.
 
 /* Initial goals */
@@ -41,6 +49,20 @@ time_to_delegate :- vehicle2(V2) & V2 == "available" & existingTask(ET) & ET == 
 +controlTrigger : true <- !control; -+controlTrigger.
 
 +!control : time_to_wait <- skip.
+
+/* Priced Jobs */
++!control : time_to_check_priced_jobs <- jia.controller(JobId, TaskId, ToDoTask, DestinyId, ItemName, Quantity, ExistingTask);
+											-+existingTask(ExistingTask);
+											-+jobId(JobId);
+											-+taskId(TaskId);
+											-+operation(ToDoTask);
+											-+destinyId(DestinyId);
+											-+itemName(ItemName);
+											-+quantity(Quantity);
+											-+existingAuction(0).
+/* Priced Jobs */
+
+/*
 +!control : time_to_check_tasks <- jia.getPendingTask(JobId, TaskId, ToDoTask, DestinyId, ItemName, Quantity, ExistingTask);
 										-+existingTask(ExistingTask);
 										-+jobId(JobId);
@@ -57,6 +79,7 @@ time_to_delegate :- vehicle2(V2) & V2 == "available" & existingTask(ET) & ET == 
 +!control : time_to_bid <- ?auctionJobId(AJ); ?maximumBid(MB); bid_for_job(AJ, MB);
 							.print("Bidding: ", AJ, MB);
 							-+existingAuction(0); -+existingTask(0).
+*/
 +!control : time_to_delegate <- ?jobId(JI); ?taskId(TI); ?operation(O); ?destinyId(DI);
 								?itemName(IN); ?quantity(Q);
 								.send(vehicle2, tell, job(JI));
@@ -65,6 +88,7 @@ time_to_delegate :- vehicle2(V2) & V2 == "available" & existingTask(ET) & ET == 
 								.send(vehicle2, tell, destination(DI));
 								.send(vehicle2, tell, item(IN));
 								.send(vehicle2, tell, itemUnits(Q));
+								.send(vehicle2, tell, newtask);
 								.print("Sending task: ", TI);
 								-+vehicle2("unavailable"); -+existingTask(0).
 

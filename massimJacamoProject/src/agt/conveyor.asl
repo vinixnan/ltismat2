@@ -26,6 +26,11 @@ time_to_store :- placeGoingTo(PGT) & facilityLocation(FL) & PGT\=="none" & FL==P
 
 /* Initial goals */
 
++newtask : true <- ?job(J); -+job(J); ?task(T); -+task(T); ?toDoTask(TD) -+toDoTask(TD);
+					?destination(D); -+destination(D); ?item(I) -+item(I);
+					?itemVolume(IV); -+itemVolume(IV); ?itemUnits(IU); -+itemUnits(IU);
+					?availableVolume(AV); -+availableVolume(AV).
+
 +!work <- !transport.
 
 /* Plans */
