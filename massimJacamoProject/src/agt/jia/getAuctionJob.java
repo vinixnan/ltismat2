@@ -34,7 +34,7 @@ public class getAuctionJob extends DefaultInternalAction {
 	    	Enumeration<String> enumJobKey = ControlStructure.auctionJobs.keys();
 	    	
 	    	//Check all jobs
-	    	while(enumJobKey.hasMoreElements() && auctionJobKey == "")
+	    	while(enumJobKey.hasMoreElements() && auctionJobKey.equals(""))
 	    	{	
 	    		JobStatus tempJobStatus = JobStatus.Try;
 	    		String jobKey = enumJobKey.nextElement();
@@ -48,7 +48,7 @@ public class getAuctionJob extends DefaultInternalAction {
 	    		}
 	    		
 	    		//Check if job should be evaluated
-	    		if (ControlStructure.jobStatus.get(jobKey) == JobStatus.Evaluation)
+	    		if (ControlStructure.jobStatus.get(jobKey).equals(JobStatus.Evaluation))
 	    		{
 		    		//Select job for evaluation
 		    		GlobalPercepts.Job job = ControlStructure.auctionJobs.get(jobKey);
@@ -64,7 +64,7 @@ public class getAuctionJob extends DefaultInternalAction {
 		    			int taskKey = -1;
 		    			for (int j = 0; j < listJobTasks.size() && taskKey == -1; j++)
 		    			{
-		    				if (ControlStructure.tasks.get(listJobTasks.get(j)).item == jobItems.get(i))
+		    				if (ControlStructure.tasks.get(listJobTasks.get(j)).item.equals(jobItems.get(i)))
 		    				{
 		    					//Task found
 		    					taskKey = listJobTasks.get(j);
@@ -87,7 +87,7 @@ public class getAuctionJob extends DefaultInternalAction {
 		    			}
 		    			
 		    			//Check if task should be evaluated
-		    			if (ControlStructure.tasks.get(taskKey).taskStatus == TaskStatus.Evaluation)
+		    			if (ControlStructure.tasks.get(taskKey).taskStatus.equals(TaskStatus.Evaluation))
 		    			{
 			    			String shopId = null;
 			    			double bestPrice = 0;
@@ -139,8 +139,9 @@ public class getAuctionJob extends DefaultInternalAction {
 			    			}
 		    			}
 		    		}
-		    		ControlStructure.jobStatus.replace(jobKey, tempJobStatus);
-		    		if (tempJobStatus == JobStatus.Try)
+		    		//ControlStructure.jobStatus.replace(jobKey, tempJobStatus);
+		    		ControlStructure.jobStatus.put(jobKey, tempJobStatus);
+		    		if (tempJobStatus.equals(JobStatus.Try))
 		    		{
 		    			auctionJobKey = jobKey;
 		    		}
@@ -151,7 +152,7 @@ public class getAuctionJob extends DefaultInternalAction {
     	//Return an auction job to bid
     	double maximumBid = 0;
     	int existingAuction = 1;
-    	if (auctionJobKey != "")
+    	if (!auctionJobKey.equals(""))
     	{
     		maximumBid = ControlStructure.auctionJobs.get(auctionJobKey).MaximumBid();
     		existingAuction = 2;

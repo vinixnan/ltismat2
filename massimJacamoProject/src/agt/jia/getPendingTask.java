@@ -30,9 +30,10 @@ public class getPendingTask extends DefaultInternalAction {
     		while(enumTakenJobId.hasMoreElements())
     		{
     			String takenJobId = enumTakenJobId.nextElement();
-    			if (ControlStructure.jobStatus.get(takenJobId) == JobStatus.Try)
+    			if (ControlStructure.jobStatus.get(takenJobId).equals(JobStatus.Try))
     			{
-    				ControlStructure.jobStatus.replace(takenJobId, JobStatus.Accepted);
+    				//ControlStructure.jobStatus.replace(takenJobId, JobStatus.Accepted);
+    				ControlStructure.jobStatus.put(takenJobId, JobStatus.Accepted);
     			}
     		}
     	}
@@ -47,14 +48,14 @@ public class getPendingTask extends DefaultInternalAction {
 	    	while(enumJobId.hasMoreElements() && taskId == -1)
 	    	{
 	    		String tempJobId = enumJobId.nextElement();
-	    		if (ControlStructure.jobStatus.get(tempJobId) == JobStatus.Accepted)
+	    		if (ControlStructure.jobStatus.get(tempJobId).equals( JobStatus.Accepted))
 	    		{
 	    			jobId = tempJobId;
 	    			//Select!
 	    			List<Integer> tasksList = ControlStructure.jobTasks.get(tempJobId);
 	    			for (int i = 0; i < tasksList.size() && taskId == -1; i++)
 	    			{
-	    				if (ControlStructure.tasks.get(i).taskStatus == TaskStatus.Accepted)
+	    				if (ControlStructure.tasks.get(i).taskStatus.equals(TaskStatus.Accepted))
 	    				{
 	    					//Task found!
 	    					taskId = i;

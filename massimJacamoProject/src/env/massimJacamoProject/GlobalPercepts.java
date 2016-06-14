@@ -154,6 +154,7 @@ public class GlobalPercepts {
 			return true;
 		}
 		if(percept.getName().equals("pricedJob")){
+			
 			updatePricedJob(percept.getParameters());
 			return true;
 		}
@@ -414,8 +415,8 @@ Note: If the list is empty, the product cannot be assembled.
 		List<Integer> quantities = new ArrayList<Integer>();
 
 		//If the job already exists, it is only needed to update the quantity
-		if(!pricedJobs.containsKey(id)){
-
+		if(pricedJobs.containsKey(id)){
+			
 			//If the job was posted by the team
 			if(postedJobs.containsKey(id)){
 				List<Integer> delivered = new ArrayList<Integer>();
@@ -571,7 +572,7 @@ bid 7. item name 8. amount
 		//Check if auction is already included in the variable
 		if(!auctionJobs.containsKey(id)){
 
-
+			
 			String storage = parameters.get(1).toString();
 			int beginStep = Integer.parseInt(parameters.get(2).toString());
 			int endStep = Integer.parseInt(parameters.get(3).toString());

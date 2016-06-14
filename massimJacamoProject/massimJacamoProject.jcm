@@ -11,10 +11,10 @@
 mas massimJacamoProject {
 
     //agent leader
-    agent vehicle1 : vehicle.asl { 
+    agent vehicle1 : controller.asl { 
     	focus: city.a1view
     }
-     agent vehicle2 : vehicle.asl { 
+     agent vehicle2 : conveyor.asl { 
     	focus: city.a2view
     }
     agent vehicle3 : vehicle.asl { 

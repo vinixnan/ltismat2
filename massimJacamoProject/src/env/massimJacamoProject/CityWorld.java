@@ -342,6 +342,7 @@ public class CityWorld extends Artifact {
 	void bid_for_job(String job, double price){
 		if(scheduledAction==null){
 			Action a = cityAgentInterface.bidForJobAction(this.agentID,job,price);
+			System.out.println("Action: "+a);
 			scheduledAction = a;
 		}
 	}

@@ -42,7 +42,7 @@ public class controller extends DefaultInternalAction {
 	    		}
 	    		
 	    		//Check if job should be evaluated
-	    		if (ControlStructure.jobStatus.get(jobKey) == JobStatus.Evaluation)
+	    		if (ControlStructure.jobStatus.get(jobKey).equals(JobStatus.Evaluation))
 	    		{
 		    		//Select job for evaluation
 		    		GlobalPercepts.Job job = ControlStructure.pricedJobs.get(jobKey);
@@ -58,7 +58,7 @@ public class controller extends DefaultInternalAction {
 		    			int taskKey = -1;
 		    			for (int j = 0; j < listJobTasks.size() && taskKey == -1; j++)
 		    			{
-		    				if (ControlStructure.tasks.get(listJobTasks.get(j)).item == jobItems.get(i))
+		    				if (ControlStructure.tasks.get(listJobTasks.get(j)).item.equals(jobItems.get(i)))
 		    				{
 		    					//Task found
 		    					taskKey = listJobTasks.get(j);
@@ -81,7 +81,7 @@ public class controller extends DefaultInternalAction {
 		    			}
 		    			
 		    			//Check if task should be evaluated
-		    			if (ControlStructure.tasks.get(taskKey).taskStatus == TaskStatus.Evaluation)
+		    			if (ControlStructure.tasks.get(taskKey).taskStatus.equals(TaskStatus.Evaluation))
 		    			{
 			    			String shopId = null;
 			    			double bestPrice = 0;
@@ -127,7 +127,8 @@ public class controller extends DefaultInternalAction {
 			    			}
 		    			}
 		    		}
-		    		ControlStructure.jobStatus.replace(jobKey, tempJobStatus);
+		    		//ControlStructure.jobStatus.replace(jobKey, tempJobStatus);
+		    		ControlStructure.jobStatus.put(jobKey, tempJobStatus);
 	    		}
 	    	}
     	}
@@ -142,14 +143,14 @@ public class controller extends DefaultInternalAction {
 	    	while(enumJobId.hasMoreElements() && taskId == -1)
 	    	{
 	    		String tempJobId = enumJobId.nextElement();
-	    		if (ControlStructure.jobStatus.get(tempJobId) == JobStatus.Accepted)
+	    		if (ControlStructure.jobStatus.get(tempJobId).equals(JobStatus.Accepted))
 	    		{
 	    			jobId = tempJobId;
 	    			//Select!
 	    			List<Integer> tasksList = ControlStructure.jobTasks.get(tempJobId);
 	    			for (int i = 0; i < tasksList.size() && taskId == -1; i++)
 	    			{
-	    				if (ControlStructure.tasks.get(i).taskStatus == TaskStatus.Accepted)
+	    				if (ControlStructure.tasks.get(i).taskStatus.equals(TaskStatus.Accepted))
 	    				{
 	    					//Task found!
 	    					taskId = i;

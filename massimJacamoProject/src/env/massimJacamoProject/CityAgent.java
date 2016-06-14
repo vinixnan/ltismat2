@@ -1,6 +1,8 @@
 package massimJacamoProject;
 import java.util.Hashtable;
 
+import org.apache.bcel.classfile.ConstantObject;
+
 import eis.exceptions.AgentException;
 import eis.exceptions.PerceiveException;
 import eis.iilang.Action;
@@ -75,12 +77,17 @@ public class CityAgent extends Agent {
 			}
 		}
 		Action schedule = artifact.getScheduledAction();
-		//artifact.debug();
+		if(ProjectConstants.DEBUG_ARTIFACT)
+			artifact.debug();
+		if(ProjectConstants.DEBUG_GLOBAL){
+			GlobalPercepts.debug();
+		}
 		if(schedule==null){
 			return CityWorld.skipAction(this.getName());
 		}
 		//System.out.println(this.getName());
 		artifact.clearSchedule();
+		
 		return schedule;
 		//return CityUtil.action("goto","lat="+51.4847+" lon="+(-0.0454));
 	}
