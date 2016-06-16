@@ -78,6 +78,7 @@ public class getAuctionJob extends DefaultInternalAction {
 		    				ControlStructure.tasks.put(taskKey, new Task(taskKey,
 		    																null,
 	    																	null,
+	    																	job.Storage(),
 	    																	jobItems.get(i),
 	    																	jobQuantities.get(i),
 	    																	null,

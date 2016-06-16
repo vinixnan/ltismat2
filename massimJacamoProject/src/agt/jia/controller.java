@@ -72,6 +72,7 @@ public class controller extends DefaultInternalAction {
 		    				ControlStructure.tasks.put(taskKey, new Task(taskKey,
 		    																null,
 	    																	null,
+	    																	job.Storage(),
 	    																	jobItems.get(i),
 	    																	jobQuantities.get(i),
 	    																	null,
@@ -100,6 +101,7 @@ public class controller extends DefaultInternalAction {
 			    	    		//Check if shop contains desired item
 			    	    		if (shopItems.contains(jobItems.get(i)))
 			    	    		{
+			    	    			/*
 			    	    			int index = shopItems.indexOf(jobItems.get(i));
 			    	    			//Check if shop contains desired quantity
 			    	    			if (shopAmount.get(index) >= jobQuantities.get(i))
@@ -111,6 +113,8 @@ public class controller extends DefaultInternalAction {
 			        	    				bestPrice = shopCosts.get(index);
 			    	    				}
 			    	    			}
+			    	    			*/
+			    	    			shopId = shop.Id();
 			    	    		}
 			    			}
 			    			
@@ -162,6 +166,7 @@ public class controller extends DefaultInternalAction {
     	
     	String operation = "";
     	String destination = "";
+    	String finalDestiny = "";
     	String item = "";
     	int quantity = 0;
     	int existingTask = 1;
@@ -169,6 +174,7 @@ public class controller extends DefaultInternalAction {
     	{
     		operation = ControlStructure.tasks.get(taskId).operation;
     		destination = ControlStructure.tasks.get(taskId).destination;
+    		finalDestiny = ControlStructure.tasks.get(taskId).finalDestiny;
     		item = ControlStructure.tasks.get(taskId).item;
     		quantity = ControlStructure.tasks.get(taskId).quantity;
     		existingTask = 2;
@@ -182,8 +188,9 @@ public class controller extends DefaultInternalAction {
     	un.unifies(args[1],  new NumberTermImpl(taskId));
     	un.unifies(args[2],  new StringTermImpl(operation));
     	un.unifies(args[3],  new StringTermImpl(destination));
-    	un.unifies(args[4],  new StringTermImpl(item));
-    	un.unifies(args[5],  new NumberTermImpl(quantity));
-    	return un.unifies(args[6],  new NumberTermImpl(existingTask));
+    	un.unifies(args[4],  new StringTermImpl(finalDestiny));
+    	un.unifies(args[5],  new StringTermImpl(item));
+    	un.unifies(args[6],  new NumberTermImpl(quantity));
+    	return un.unifies(args[7],  new NumberTermImpl(existingTask));
     }
 }

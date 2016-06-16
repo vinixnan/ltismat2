@@ -34,7 +34,7 @@ chargetrigger.
 ?placeGoingTo(GT); -+placeGoingTo(GT);
 -+updateBeliefs.
 
-+chargetrigger : true  <-  !gocharge; -+chargetrigger.
++chargetrigger : true  <- !gocharge; -+chargetrigger.
 
 
 
