@@ -14,7 +14,7 @@ mas massimJacamoProject {
     agent vehicle1 : controller.asl { 
     	focus: city.a1view
     }
-     agent vehicle2 : conveyor.asl { 
+     agent vehicle2 : deliverer.asl { 
     	focus: city.a2view
     }
     agent vehicle3 : vehicle.asl { 
@@ -35,16 +35,16 @@ mas massimJacamoProject {
     agent vehicle8 : explorer.asl { 
     	focus: city.a8view
     }
-    agent vehicle9 : vehicle.asl { 
+    agent vehicle9 : explorer.asl { 
     	focus: city.a9view
     }
-    agent vehicle10 : vehicle.asl { 
+    agent vehicle10 : explorer.asl { 
     	focus: city.a10view
     }
-    agent vehicle11 : vehicle.asl { 
+    agent vehicle11 : explorer.asl { 
     	focus: city.a11view
     }
-    agent vehicle12 : vehicle.asl { 
+    agent vehicle12 : explorer.asl { 
     	focus: city.a12view
     }
     agent vehicle13 : vehicle.asl { 

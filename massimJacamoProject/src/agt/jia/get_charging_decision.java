@@ -35,7 +35,7 @@ public class get_charging_decision extends DefaultInternalAction {
     				answer=2;//charge;
     			}
     		}
-    		else if(percent <= 0.5){
+    		else if(percent <= 0.4){
     			//não esta carregando e o percentual de carga está baixo
     			if(facilityName.contains("charging")){
     				//necessita de carga e esta na estação
